@@ -1,0 +1,183 @@
+import json
+
+# a Python object (dict):
+commons_license = "CC-BY-SA-4.0"
+commons_source = "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)]."
+commons_description = {"de": "Fundstellen des Uluzzien","en": "Uluzzian sites"}
+geojson = {
+        "type": "FeatureCollection",
+        "name": "uluzzian_road",
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+            }
+        },
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Klissoura 1"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        22.8,
+                        37.69
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Broion"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        11.6,
+                        45.47
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Castelcivita"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        15.2,
+                        40.49
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Colle Rotondo"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        12.6,
+                        41.51
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": {
+                        "en": "[[Fumane Cave]]",
+                        "de": "[[Grotta di Fumane]]"
+                    }
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        10.9,
+                        45.59
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": {
+                        "en": "Grotta del Cavallo",
+                        "de": "Grotta del Cavallo"
+                    }
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        17.96,
+                        40.15
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "La Cala"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        15.38,
+                        40
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "La Fabbrica"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        11.12,
+                        42.57
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Mario Bernardini"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        17.95,
+                        40.16
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Roccia San Sebastiano"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        14.13,
+                        41.23
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Uluzzo C"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        17.96,
+                        40.15
+                    ]
+                }
+            }
+        ]
+    }
+
+
+
+wikicommons = {
+    "license": commons_license,
+    "description": commons_description,
+    "sources": commons_source,
+    "data": geojson
+}
+
+
+# convert into JSON:
+y = json.dumps(wikicommons)
+
+# the result is a JSON string:
+print(y)

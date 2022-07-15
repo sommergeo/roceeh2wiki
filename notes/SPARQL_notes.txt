@@ -1,0 +1,108 @@
+# Table with Coordinates
+```
+PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>
+PREFIX wgs84_pos: <https://www.w3.org/2003/01/geo/wgs84_pos#>
+
+SELECT  ?title ?lon ?lat
+WHERE{
+       ?x a road:Locality.
+       ?x road:Locality\#id ?title.
+       ?x wgs84_pos:long ?lon.
+       ?x wgs84_pos:lat ?lat.
+}ORDER BY ?id
+```
+
+# Table with cultures
+```
+PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>
+SELECT  ?culture
+WHERE {
+  ?x a road:ArchaeologicalLayer.
+  ?x road:ArchaeologicalLayer\#archstratigraphyIdArchstrat ?culture.
+} ORDER BY ?culture
+```
+
+# Table with cultural periods, cultures and regional cultures
+```
+PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>
+SELECT DISTINCT ?cultural_period ?id ?technocomplex ?regional_culture ?regionalTechnocomplex
+WHERE {
+  ?x a road:ArchaeologicalStratigraphy.
+  ?x road:ArchaeologicalStratigraphy\#culturalPeriod ?cultural_period.
+  ?x road:ArchaeologicalStratigraphy\#id ?id.
+  ?x road:ArchaeologicalStratigraphy\#technocomplex ?technocomplex.
+  ?x road:ArchaeologicalStratigraphy\#regionalTechnocomplex ?regionalTechnocomplex.
+} ORDER BY ?cultural_period ?id
+```
+
+# Table with localities of selected culture
+```
+PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>
+SELECT  ?culture ?title
+WHERE {
+  ?x a road:ArchaeologicalLayer.
+  ?x road:ArchaeologicalLayer\#archstratigraphyIdArchstrat "Uluzzian".
+  ?x road:ArchaeologicalLayer\#archstratigraphyIdArchstrat ?culture.
+  ?x road:ArchaeologicalLayer\#localityId ?title.
+}
+```
+
+# Table with geodata of selected culture
+```
+PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>
+PREFIX wgs84_pos: <https://www.w3.org/2003/01/geo/wgs84_pos#>
+
+SELECT  ?culture ?title ?lon
+WHERE {
+  ?x a road:ArchaeologicalLayer.
+  ?x road:ArchaeologicalLayer\#archstratigraphyIdArchstrat "Uluzzian".
+  ?x road:ArchaeologicalLayer\#archstratigraphyIdArchstrat ?culture.
+  ?x road:ArchaeologicalLayer\#localityId ?title.
+}
+```
+
+
+
+
+
+PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>
+SELECT  ?idloc ?title ?author ?abstract
+WHERE {
+  ?x a road:Locality.
+  ?x road:Locality\#id ?idloc.
+  ?x road:PublicationRef ?y.
+  ?y <https://schema.org/abstract> ?abstract.
+  ?y <https://schema.org/author> ?author.
+  ?y road:Publication\#publicationSourceId ?idsource.
+  ?z a road:PublicationSource.
+  ?z road:PublicationSource\#id ?idsource.
+  ?z <http://purl.org/dc/terms/title> ?title
+} ORDER BY ?idloc
+
+
+
+
+
+
+
+
+
+
+
+
+PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>
+SELECT  ?id ?type
+WHERE{
+       ?x a road:Locality.
+       ?x road:Locality\#id ?id.
+       ?x road:Locality\#type ?type.
+}ORDER BY ?id
+
+
+PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>
+SELECT  ?property ?value
+WHERE {
+        ?x a road:Locality.
+        ?x road:Locality\#id "Aar 1".
+        ?x ?property ?value.
+}
