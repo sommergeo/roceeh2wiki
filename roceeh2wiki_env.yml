@@ -1,0 +1,9 @@
+name: roceeh2wiki
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - spyder
+  - pandas
+  - geopandas
+prefix: C:\ProgramData\Anaconda3\envs\roceeh2wiki
