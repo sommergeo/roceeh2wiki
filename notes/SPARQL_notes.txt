@@ -2,7 +2,6 @@
 ```
 PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>
 PREFIX wgs84_pos: <https://www.w3.org/2003/01/geo/wgs84_pos#>
-
 SELECT  ?title ?lon ?lat
 WHERE{
        ?x a road:Locality.
