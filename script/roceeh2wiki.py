@@ -4,6 +4,7 @@ Created on Fri Jul 29 14:42:30 2022
 
 @author: Christian Sommer
 """
+import pandas as pd
 import sparql_dataframe
 import geopandas
 import json
@@ -31,11 +32,11 @@ def road_query(culture):
     return df
 
 
-def wiki_json(df):
+def wiki_json(df, commons_description):
     # Head of JSON
     commons_license = "CC-BY-SA-4.0"
     commons_source = "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)]."
-    commons_description = {"de": "Fundstellen des Uluzzien","en": "Uluzzian sites"}
+    #commons_description = {"de": "Fundstellen des Uluzzien","en": "Uluzzian sites"}
 
 
 
@@ -63,3 +64,13 @@ def wiki_json(df):
     }
     wikistring = json.dumps(wikidict, ensure_ascii=False, indent=4)
     print(wikistring)
+
+
+clist = pd.read_excel (r'D:\SOMMER\git\roceeh2wiki\data\wiki_cultures.xlsx')
+clist = clist.query('use=="T"') # Exlude unused rows
+
+
+for i,j in clist.iterrows():
+    print(i, j.enwiki_title)
+    x = wiki_json(road_query(j.road_culture), j.description)
+    print(x)
