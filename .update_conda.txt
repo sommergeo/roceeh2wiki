@@ -1,0 +1,13 @@
+conda update -p C:/Users/chs/.conda/envs/roceeh2wiki_env --all
+conda update -p C:/Users/chs/.conda/envs/roceeh2wiki_env spyder
+
+
+# doesn't work
+conda activate C:/Users/chs/.conda/envs/roceeh2wiki_env
+conda install git
+conda install pip
+pip install git+https://github.com/lawlesst/sparql-dataframe.git
+
+#works
+conda activate C:/Users/chs/.conda/envs/roceeh2wiki_env
+pip install sparql-dataframe

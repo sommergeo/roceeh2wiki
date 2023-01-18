@@ -1,0 +1,128 @@
+{
+    "license": "CC-BY-SA-4.0",
+    "description": "{\"de\": \"Fundstellen des Micoquien\", \"en\": \"Micoquian sites\"}",
+    "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)].",
+    "data": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Bisnik Cave",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bisnik%20Cave Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        19.66,
+                        50.43
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Bockstein-Abhang",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bockstein-Abhang Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        10.16,
+                        48.55
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Bocksteinschmiede-Bocksteinloch",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bocksteinschmiede-Bocksteinloch Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        10.16,
+                        48.55
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Buhlen_Oberer Fundplatz",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Buhlen_Oberer%20Fundplatz Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        9.09,
+                        51.19
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Kulna Cave",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kulna%20Cave Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        16.74,
+                        49.41
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "La Micoque",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=La%20Micoque Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        1.01,
+                        44.96
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Moravsky Krumlov IV",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Moravsky%20Krumlov%20IV Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        16.41,
+                        49.05
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Vinneuf - Les Hauts Massous",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Vinneuf%20-%20Les%20Hauts%20Massous Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        3.14,
+                        48.37
+                    ]
+                }
+            }
+        ],
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+            }
+        }
+    }
+}

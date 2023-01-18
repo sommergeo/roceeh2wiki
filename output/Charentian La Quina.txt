@@ -1,0 +1,30 @@
+{
+    "license": "CC-BY-SA-4.0",
+    "description": "{\"de\": \"Fundstellen der la Quina Kultur\", \"en\": \"La Quina sites\"}",
+    "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)].",
+    "data": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Arcy-sur-Cure - Grotte de l_Hyène",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Arcy-sur-Cure%20-%20Grotte%20de%20l_Hyène Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        3.76,
+                        47.59
+                    ]
+                }
+            }
+        ],
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+            }
+        }
+    }
+}
