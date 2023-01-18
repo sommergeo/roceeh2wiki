@@ -12,3 +12,14 @@ The following Wikis are currently supplied:
 	* [https://en.wikipedia.org/wiki/Howiesons_Poort]()
 	* [https://de.wikipedia.org/wiki/Howieson%E2%80%99s_Poort_Industrie]()
 	* [https://commons.wikimedia.org/wiki/Data:ROCEEH/Howiesons_Poort.map]()
+
+* Wikimedia Commons
+	* [https://commons.wikimedia.org/wiki/Data:ROCEEH/Ahmarian.map]()
+	* [https://commons.wikimedia.org/wiki/Data:ROCEEH/Aterian.map]()
+	* [https://commons.wikimedia.org/wiki/Data:ROCEEH/Chatelperronian.map]()
+	* [https://commons.wikimedia.org/wiki/Data:ROCEEH/Fauresmith.map]()
+	* [https://commons.wikimedia.org/wiki/Data:ROCEEH/Gravettian.map]()
+	* [https://commons.wikimedia.org/wiki/Data:ROCEEH/Howiesonspoort.map]()
+	* [https://commons.wikimedia.org/wiki/Data:ROCEEH/Micoquian.map]()
+	* [https://commons.wikimedia.org/wiki/Data:ROCEEH/Still_Bay.map]()
+	* [https://commons.wikimedia.org/wiki/Data:ROCEEH/Uluzzian.map]()

@@ -1,7 +1,10 @@
 {
     "license": "CC-BY-SA-4.0",
-    "description": "{\"de\": \"Fundstellen der Howieson's Poort Industrie\", \"en\": \"Howiesons Poort sites\"}",
-    "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)].",
+    "description": {
+        "de": "Fundstellen der Howieson's Poort Industrie",
+        "en": "Howiesons Poort sites"
+    },
+    "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2023-01-18.",
     "data": {
         "type": "FeatureCollection",
         "features": [

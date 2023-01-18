@@ -9,6 +9,7 @@ import sparql_dataframe
 import geopandas
 import json
 import os
+from datetime import date
 
 path = r'C:\data\git\mid-pleistocene-niches\roceeh2wiki'
 
@@ -38,7 +39,7 @@ def road_query(culture):
 def wiki_json(df, commons_description):
     # Head of JSON
     commons_license = "CC-BY-SA-4.0"
-    commons_source = "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)]."
+    commons_source = "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on " + str(date.today()) + "."
 
     # Geodata JSON
     df = df.round({'lon': 2, 'lat': 2})
@@ -58,7 +59,7 @@ def wiki_json(df, commons_description):
     # Merge head and geodata
     wikidict = {
         "license": commons_license,
-        "description": commons_description,
+        "description": json.loads(commons_description),
         "sources": commons_source,
         "data": geojson
     }
@@ -72,7 +73,7 @@ clist = clist.query('use=="T"') # Exlude unused rows
 
 for i,j in clist.iterrows():
     fname = os.path.join(path, 'output', j.road_culture+'.txt')     # create output path and filename
-    print(j.enwiki_title, i, fname)
+    print(i, j.enwiki_title, fname)
     x = wiki_json(road_query(j.road_culture), j.description)        # query from ROAD and paste to wiki-style json
     with open(fname,'w') as f:                                      # write each culture to an individual file
         f.write(x)
