@@ -1,5 +1,5 @@
 # roceeh2wiki
-This repo contains tools to import data from ROAD's SPARQL endpoint and convert them to interactive Wikipedia maps. All data are distributed under CC BY 4.0.
+This repo contains tools to import data from ROAD's SPARQL endpoint and convert them to interactive Wikipedia maps. All data are distributed under [CC BY-SA 4.0](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_data_use_policy.php).
 
 ## Wikis
 The following Wikis are currently supplied:
