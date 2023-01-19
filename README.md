@@ -1,6 +1,6 @@
 # roceeh2wiki
 This repo contains tools to publish geodata from the [ROCEEH Out of Africa Database (ROAD)](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php) to Wikipedia maps. The tools help to query data from ROAD's [SPARQL](http://www.roceeh.uni-tuebingen.de/roadweb/smarty_sparql_select.php "Must be logged in to enter webform") endpoint and convert the results to the JSON schema of Wikipedia's map extension [Kartographer](https://www.mediawiki.org/wiki/Help:Extension:Kartographer).
-The JSON files can be pasted to Wikimedia Commons, which then are linked within Wikis.
+The JSON files can be pasted to Wikimedia Commons, which then are linked to Wikis.
  
 
 ![Workflow of the roceeh2wiki package](docs/workflow_small.png)
@@ -21,6 +21,23 @@ The following Wikis are currently provided:
 |Uluzzian       |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Uluzzian.map)       |[en](https://en.wikipedia.org/wiki/Uluzzian) [de](https://de.wikipedia.org/wiki/Uluzzien)                                 |
 
 ## Background
+
+### Maps in Wikipedia
+
+Web maps are implemented in Wikipedia by a `<mapframe>` element. The element's `text` argument is used as a subtitle of the map and cotains a name in the repsective language, the license and the source name. The mapframe points to a Wikimedia Commons file, referenced in the `"title"` tag.
+
+![Screenshot from Wikimedia Commons](docs/wikipedia_uluzzian_1000x700.png)
+
+```html
+<mapframe text="Uluzzian sites (CC BY-SA 4.0 [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH])" longitude="16.3" latitude="41.5" zoom="5" width="450", height="350">
+{
+  "type": "ExternalData",
+  "service": "page",
+  "title": "ROCEEH/Uluzzian.map"
+}
+</mapframe>
+```
+
 ### Geodata in Wikimedia Commons
 Geodata for Wikipedia are collected in Wikimedia Commons for two reasons. First, GeoJSON files can be excessively long depending on its content, so that it disturbs the readability in the Wikipedia text editor. Second, contents in Wikimedia Commons can be accessed from Wikis in all languages, no cross-posting needed.
 
@@ -34,8 +51,8 @@ The following code is an exemple from the Uluzzian culture, and was shortened to
 
 - General map information:
 	- The `"license"` for all ROAD data is [CC BY-SA 4.0](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_data_use_policy.php) and therefore complies with Wikipedia's terms of use. 
-	- The `"description"` is shown in Wikimedia Commons as a subheading. Different languages can be used to translate to the target Wiki's title, e.g. English "Ulizzian" vs. German "Uluzzien".
-	- The `"sources"` tag is a standard text. The date of export is always updated.
+	- The `"description"` is shown in Wikimedia Commons as a subheading. Different languages can be used to translate to the target Wiki's title, e.g. English "Uluzzian" vs. German "Uluzzien".
+	- The `"sources"` tag is a standard text. The date of export is updated automatically.
 	- The tags `"zoom"`, `"latitude"` and `"longitude"` are optional and can be used to set the map's initial extent. The map engine however is smart enough to set a suitable extent automatically.
 - Geodata:
 	- The `"data"` tag is at the heart of Wikipedia's JSON scheme and contains a standard GeoJSON file. Most of its contents are standardized. The appearance of the popup is defined in the features' `"properties"`. 
@@ -81,21 +98,26 @@ The following code is an exemple from the Uluzzian culture, and was shortened to
 }
 ```
 
+### ROAD SPARQL endpoint
+The ROAD database is implemented as a relational SQL database, that can be accessed through a [web portal](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php) with many tools for querying, analyzing and visualizing. But the database is also regularly exported to RDF files, that can be queried through ROAD's **SPARQL endpoint** at `https://www.roceeh.uni-tuebingen.de/road/`. 
+
+![Screenshot from Wikimedia Commons](docs/road_sparql_1000x550.png)
+
+SPARQL queries can be requested through a [web interface](http://www.roceeh.uni-tuebingen.de/roadweb/smarty_sparql_select.php), which allows to export results to a HTML table, JSON, XML or CSV file. The following example shows a query for archaeological sites associated with the Uluzzian culture and returns their names and geocoordinates. Roceeh2wiki uses the Python library [sparql-dataframe](https://github.com/lawlesst/sparql-dataframe) to request data directly.
 
 
+```sparql
+PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>
+PREFIX wgs84_pos: <https://www.w3.org/2003/01/geo/wgs84_pos#>
 
-### Maps in Wikipedia
-
-Within the Wiki itself, the map is represented by a `<mapframe>` element. The element's `text` argument is used as a subtitle of the map and cotains a name in the repsective language, the license and the source name. The mapframe points to the Wikimedia Commons file, whose name is posted in `"title"`.
-
-![Screenshot from Wikimedia Commons](docs/wikipedia_uluzzian_1000x700.png)
-
-```html
-<mapframe text="Fundstellen des Uluzzien (CC-BY-SA 4.0 [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH])" width="450", height="350">
-{
-  "type": "ExternalData",
-  "service": "page",
-  "title": "ROCEEH/Uluzzian.map"
-}
-</mapframe>
+SELECT  DISTINCT (?culture) ?title ?lon ?lat
+WHERE {
+  ?x a road:ArchaeologicalLayer.
+  ?x road:ArchaeologicalLayer\#archstratigraphyIdArchstrat "Uluzzian".
+  ?x road:ArchaeologicalLayer\#localityId ?title.
+  ?y a road:Locality.
+  ?y road:Locality\#id ?title.
+  ?y wgs84_pos:long ?lon.
+  ?y wgs84_pos:lat ?lat.
+} ORDER BY ?title
 ```
