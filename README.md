@@ -20,6 +20,41 @@ The following Wikis are currently provided:
 |Still Bay      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Still_Bay.map)      |
 |Uluzzian       |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Uluzzian.map)       |[en](https://en.wikipedia.org/wiki/Uluzzian) [de](https://de.wikipedia.org/wiki/Uluzzien)                                 |
 
+## Use
+
+The program uses the script [roceeh2wiki.py](/script/roceeh2wiki.py) to iterate through [wiki_cultures.xlsx](/data/wiki_cultures.xlsx), a list of archaeological cultures to be queried from the ROAD database and published on Wikpedia. The spreadsheet contains 5 columns:
+* `use` indicates whether a culture should be queried or not. We aim to provide a high level of quality and ask specialists to evaluate the resulting maps. Therefore the maps are released step by step.
+* `enwiki_title` and `enwiki_title` are Wikis in the German and English speaking Wikipedia that correspond to cultures stored in ROAD. They are the targets of our maps.
+* `road_culture` contains cultures to be queried from the ROAD attribute `archaeological_layer$archstratigraphy_idarchstrat` (or its RDF realisation `road:ArchaeologicalLayer\#archstratigraphyIdArchstrat`).
+* `description` contains a JSON styled dictionary with the maps names in different languages.
+
+For each row that is flagged `use==T`, the script creates an output TXT file containing a Wikipedia-flavoured JSON into the output folder. This JSON can be manually exported to Wikimedia Commons `https://commons.wikimedia.org/wiki/Data:ROCEEH/*.map`. The Wikimedia Commons file is then linked within the target Wiki's `<mapframe>`. _It is planned to replace this manual last step in Wiki with a wikibot._ 
+
+```
+.
+├── scripts                  
+│   └── roceeh2wiki.py       # Query cultures from ROAD and export to JSON
+├── data
+│   └── wiki_cultures.xlsx   # List with ROAD cultures and corresponding Wikis to process
+└── output
+    ├── Ahmarian.txt 	     # 1st culture
+    ├── Aterian.txt 	     # 2nd culture
+    └── ...		     # Many more results
+```
+
+```mermaid
+graph LR;
+    A(Start) --> B[road_query];
+    B --> C[wiki_json];
+    C --> D[Export to /output/road_culture.txt];
+    D --> E{Last item?};
+    E --> |yes| F[Manually paste to Wikimedia];
+    F --> G(End);
+    H(/data/wiki_cultures.xlsx) --> |road_culture| B;
+    H --> |description| C;
+    E --> |no| H;
+```
+
 ## Background
 
 ### Maps in Wikipedia
