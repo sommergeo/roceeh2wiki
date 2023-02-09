@@ -36,13 +36,13 @@ def road_query(culture):
     return df
 
 # transform table to 
-def wiki_json(df, commons_description):
+def wiki_json(df, commons_description=' '):
     # Head of JSON
     commons_license = "CC-BY-SA-4.0"
     commons_source = "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on " + str(date.today()) + "."
 
     # Geodata JSON
-    df = df.round({'lon': 2, 'lat': 2})
+    df = df.round({'lon': 3, 'lat': 3})
     gdf = geopandas.GeoDataFrame(
         df[['title','description']], geometry=geopandas.points_from_xy(df.lon, df.lat), crs='EPSG:4326')
 

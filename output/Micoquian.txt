@@ -1,13 +1,27 @@
 {
     "license": "CC-BY-SA-4.0",
     "description": {
-        "de": "Fundstellen des Micoquien",
-        "en": "Micoquian sites"
+        "de": "Ausgewählte Micoquien Fundstellen aus der ROAD Datenbank",
+        "en": "Selected Micoquian sites from the ROAD Database"
     },
-    "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2023-01-18.",
+    "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2023-02-08.",
     "data": {
         "type": "FeatureCollection",
         "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Balve Cave",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Balve%20Cave Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        7.872,
+                        51.339
+                    ]
+                }
+            },
             {
                 "type": "Feature",
                 "properties": {
@@ -17,8 +31,8 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        19.66,
-                        50.43
+                        19.665,
+                        50.426
                     ]
                 }
             },
@@ -31,8 +45,8 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        10.16,
-                        48.55
+                        10.155,
+                        48.554
                     ]
                 }
             },
@@ -45,8 +59,8 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        10.16,
-                        48.55
+                        10.155,
+                        48.554
                     ]
                 }
             },
@@ -59,8 +73,50 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        9.09,
-                        51.19
+                        9.087,
+                        51.191
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Buran Kaya III",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Buran%20Kaya%20III Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        34.404,
+                        45.003
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Ciemna Cave",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ciemna%20Cave Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        19.832,
+                        50.197
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Feldhofer Grotte",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Feldhofer%20Grotte Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        6.945,
+                        51.227
                     ]
                 }
             },
@@ -73,8 +129,22 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        16.74,
-                        49.41
+                        16.738,
+                        49.408
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Königsaue",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Königsaue Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        11.394,
+                        51.818
                     ]
                 }
             },
@@ -87,8 +157,8 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        1.01,
-                        44.96
+                        1.006,
+                        44.958
                     ]
                 }
             },
@@ -101,8 +171,50 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        16.41,
-                        49.05
+                        16.411,
+                        49.045
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Oblazowa Cave",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Oblazowa%20Cave Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        20.126,
+                        49.429
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Prolom II",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Prolom%20II Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        34.707,
+                        45.092
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Saint-Pierre-lès-Elbeuf",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Saint-Pierre-lès-Elbeuf Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        1.045,
+                        49.266
                     ]
                 }
             },
@@ -116,7 +228,7 @@
                     "type": "Point",
                     "coordinates": [
                         3.14,
-                        48.37
+                        48.368
                     ]
                 }
             }

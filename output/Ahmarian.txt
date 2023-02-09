@@ -1,9 +1,10 @@
 {
     "license": "CC-BY-SA-4.0",
     "description": {
-        "en": "Ahmarian sites"
+        "de": "Ausgewählte Ahmarien Fundstellen aus der ROAD Datenbank",
+        "en": "Selected Ahmarian sites from the ROAD Database"
     },
-    "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2023-01-18.",
+    "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2023-02-08.",
     "data": {
         "type": "FeatureCollection",
         "features": [
@@ -16,8 +17,8 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        34.94,
-                        32.56
+                        34.936,
+                        32.558
                     ]
                 }
             },
@@ -30,8 +31,8 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        35.64,
-                        33.91
+                        35.641,
+                        33.914
                     ]
                 }
             },
@@ -44,8 +45,8 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        35.35,
-                        29.95
+                        35.348,
+                        29.946
                     ]
                 }
             },
@@ -58,8 +59,8 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        35.35,
-                        29.95
+                        35.348,
+                        29.946
                     ]
                 }
             },
@@ -72,8 +73,8 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        35.96,
-                        35.98
+                        35.959,
+                        35.983
                     ]
                 }
             },
@@ -86,8 +87,8 @@
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        38.89,
-                        35.27
+                        38.888,
+                        35.269
                     ]
                 }
             }
