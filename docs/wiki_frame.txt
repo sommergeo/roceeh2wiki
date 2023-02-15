@@ -1,0 +1,16 @@
+<mapframe text="Selected Aterian sites from the [https://www.roceeh.uni-tuebingen.de/roadweb ROAD database] (CC BY-SA 4.0 ROCEEH)" longitude="9.5" latitude="26" zoom="3" width="400", height="300">
+{
+  "type": "ExternalData",
+  "service": "page",
+  "title": "ROCEEH/Aterian.map"
+}
+</mapframe>
+
+<mapframe text="Ausgewählte Atérien Fundstellen aus der [https://www.roceeh.uni-tuebingen.de/roadweb ROAD Datenbank] (CC BY-SA 4.0 ROCEEH)" longitude="9.5" latitude="26" zoom="3" width="400", height="300">
+{
+  "type": "ExternalData",
+  "service": "page",
+  "title": "ROCEEH/Aterian.map"
+}
+</mapframe>
+
