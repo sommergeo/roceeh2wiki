@@ -1,3 +1,15 @@
+Selected Aterian sites from the [https://www.roceeh.uni-tuebingen.de/roadweb ROAD database] (CC BY-SA 4.0 ROCEEH)
+Ausgewählte Atérien Fundstellen aus der [https://www.roceeh.uni-tuebingen.de/roadweb ROAD Datenbank] (CC BY-SA 4.0 ROCEEH)
+Sites atériens sélectionnés dans la base de données [https://www.roceeh.uni-tuebingen.de/roadweb ROAD] (CC BY-SA 4.0 ROCEEH)
+Siti ateriani selezionati dalla banca dati [https://www.roceeh.uni-tuebingen.de/roadweb ROAD] (CC BY-SA 4.0 ROCEEH)
+Selección de sitios aterienses de la base de datos [https://www.roceeh.uni-tuebingen.de/roadweb ROAD] (CC BY-SA 4.0 ROCEEH)
+Sítios aterianos seleccionados da base de dados [https://www.roceeh.uni-tuebingen.de/roadweb ROAD] (CC BY-SA 4.0 ROCEEH)
+
+carte interactive
+mappa interattiva
+mapa interactivo
+mapa interactivo
+
 <mapframe text="Selected Aterian sites from the [https://www.roceeh.uni-tuebingen.de/roadweb ROAD database] (CC BY-SA 4.0 ROCEEH)" longitude="9.5" latitude="26" zoom="3" width="400", height="300">
 {
   "type": "ExternalData",
@@ -14,3 +26,34 @@
 }
 </mapframe>
 
+<mapframe text="Sites atériens sélectionnés dans la base de données [https://www.roceeh.uni-tuebingen.de/roadweb ROAD] (CC BY-SA 4.0 ROCEEH)" longitude="9.5" latitude="26" zoom="3" width="400", height="300">
+{
+  "type": "ExternalData",
+  "service": "page",
+  "title": "ROCEEH/Aterian.map"
+}
+</mapframe>
+
+<mapframe text="Siti ateriani selezionati dalla banca dati [https://www.roceeh.uni-tuebingen.de/roadweb ROAD] (CC BY-SA 4.0 ROCEEH)" longitude="9.5" latitude="26" zoom="3" width="400", height="300">
+{
+  "type": "ExternalData",
+  "service": "page",
+  "title": "ROCEEH/Aterian.map"
+}
+</mapframe>
+
+<mapframe text="Selección de sitios aterienses de la base de datos [https://www.roceeh.uni-tuebingen.de/roadweb ROAD] (CC BY-SA 4.0 ROCEEH)" longitude="9.5" latitude="26" zoom="3" width="400", height="300">
+{
+  "type": "ExternalData",
+  "service": "page",
+  "title": "ROCEEH/Aterian.map"
+}
+</mapframe>
+
+<mapframe text="Sítios aterianos seleccionados da base de dados [https://www.roceeh.uni-tuebingen.de/roadweb ROAD] (CC BY-SA 4.0 ROCEEH)" longitude="9.5" latitude="26" zoom="3" width="400", height="300">
+{
+  "type": "ExternalData",
+  "service": "page",
+  "title": "ROCEEH/Aterian.map"
+}
+</mapframe>
