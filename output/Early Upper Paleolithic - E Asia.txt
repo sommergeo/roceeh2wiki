@@ -1,0 +1,33 @@
+{
+    "license": "CC-BY-SA-4.0",
+    "description": {
+        "de": "Ausgewählte Fundstellen des Early Upper Paleolithic aus der ROAD Datenbank",
+        "en": "Selected Early Upper Paleolithic sites from the ROAD Database"
+    },
+    "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2023-10-25.",
+    "data": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Longquan Cave",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Longquan%20Cave Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        111.608,
+                        33.79
+                    ]
+                }
+            }
+        ],
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+            }
+        }
+    }
+}

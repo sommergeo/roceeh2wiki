@@ -1,8 +1,8 @@
 {
     "license": "CC-BY-SA-4.0",
     "description": {
-        "de": "Ausgewählte Ahmarien Fundstellen aus der ROAD Datenbank",
-        "en": "Selected Ahmarian sites from the ROAD Database"
+        "de": "Ausgewählte Fundstellen des levante-Aurignacien aus der ROAD Datenbank",
+        "en": "Selected Levantine Aurignacian sites from the ROAD Database"
     },
     "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2023-10-25.",
     "data": {
@@ -11,14 +11,28 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Kebara Cave",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kebara%20Cave Summary Data Sheet]"
+                    "title": "Hayonim Cave",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Hayonim%20Cave Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        34.936,
-                        32.558
+                        35.217,
+                        32.933
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Jebel Humeima",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Jebel%20Humeima Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        35.348,
+                        29.946
                     ]
                 }
             },
@@ -39,42 +53,14 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Tor Aeid",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Tor%20Aeid Summary Data Sheet]"
+                    "title": "Sefunim Cave",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sefunim%20Cave Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        35.348,
-                        29.946
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Tor Hamar",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Tor%20Hamar Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        35.348,
-                        29.946
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Ucagizli Cave I",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ucagizli%20Cave%20I Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        35.959,
-                        35.983
+                        34.979,
+                        32.737
                     ]
                 }
             },

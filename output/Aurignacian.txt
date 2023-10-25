@@ -1,8 +1,8 @@
 {
     "license": "CC-BY-SA-4.0",
     "description": {
-        "de": "Ausgewählte Gravettien Fundstellen aus der ROAD Datenbank",
-        "en": "Selected Gravettian sites from the ROAD Database"
+        "de": "Ausgewählte Aurignacien Fundstellen aus der ROAD Datenbank",
+        "en": "Selected Aurignacian sites from the ROAD Database"
     },
     "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2023-10-25.",
     "data": {
@@ -11,14 +11,56 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Abri Labattut",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Abri%20Labattut Summary Data Sheet]"
+                    "title": "Abri Blanchard des Roches",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Abri%20Blanchard%20des%20Roches Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        1.1,
+                        1.101,
                         45.0
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Abri Caminade",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Abri%20Caminade Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        1.249,
+                        44.868
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Abri Castanet",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Abri%20Castanet Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        1.101,
+                        45.0
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Abri Cellier",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Abri%20Cellier Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        1.054,
+                        44.992
                     ]
                 }
             },
@@ -67,28 +109,14 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Aggsbach_Fundstelle A",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Aggsbach_Fundstelle%20A Summary Data Sheet]"
+                    "title": "Alberndorf I",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Alberndorf%20I Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        15.4,
-                        48.293
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Aggsbach_Fundstelle B",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Aggsbach_Fundstelle%20B Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        15.4,
-                        48.293
+                        16.112,
+                        48.683
                     ]
                 }
             },
@@ -109,20 +137,6 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Arene Candide",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Arene%20Candide Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        8.332,
-                        44.164
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
                     "title": "Bacho Kiro",
                     "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bacho%20Kiro Summary Data Sheet]"
                 },
@@ -131,6 +145,20 @@
                     "coordinates": [
                         25.43,
                         42.947
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Barbas I",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Barbas%20I Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.56,
+                        44.857
                     ]
                 }
             },
@@ -151,14 +179,14 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Bilancino",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bilancino Summary Data Sheet]"
+                    "title": "Beg-Ar-Chastel",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Beg-Ar-Chastel Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        11.15,
-                        43.58
+                        -4.433,
+                        48.648
                     ]
                 }
             },
@@ -179,14 +207,42 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Borshchevo 5",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Borshchevo%205 Summary Data Sheet]"
+                    "title": "Bockstein-Westloch",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bockstein-Westloch Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        39.124,
-                        51.342
+                        10.155,
+                        48.554
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Bocksteinhöhle",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bocksteinhöhle Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        10.155,
+                        48.554
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Brassempouy_Grotte des Hyenes",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Brassempouy_Grotte%20des%20Hyenes Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -0.717,
+                        43.63
                     ]
                 }
             },
@@ -207,6 +263,34 @@
             {
                 "type": "Feature",
                 "properties": {
+                    "title": "Breitenbach-Schneidemuehle",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Breitenbach-Schneidemuehle Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        12.085,
+                        51.009
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Brignol",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Brignol Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.746,
+                        44.406
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
                     "title": "Brillenhöhle",
                     "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Brillenhöhle Summary Data Sheet]"
                 },
@@ -215,62 +299,6 @@
                     "coordinates": [
                         9.778,
                         48.405
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Brno II",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Brno%20II Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        16.626,
-                        49.202
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Broion",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Broion Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        11.6,
-                        45.47
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Buraca Escura",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Buraca%20Escura Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -8.552,
-                        39.98
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Buraca Grande",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Buraca%20Grande Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -8.547,
-                        39.981
                     ]
                 }
             },
@@ -291,20 +319,6 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Cabeço de Porto Marinho",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Cabeço%20de%20Porto%20Marinho Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -8.938,
-                        39.361
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
                     "title": "Cardina-Salto do Boi",
                     "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Cardina-Salto%20do%20Boi Summary Data Sheet]"
                 },
@@ -319,42 +333,56 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Casal do Felipe",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Casal%20do%20Felipe Summary Data Sheet]"
+                    "title": "Chez-Pinaud",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Chez-Pinaud Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -8.995,
-                        39.352
+                        -0.419,
+                        45.438
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Ciuntu",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ciuntu Summary Data Sheet]"
+                    "title": "Chez-Pinaud 2",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Chez-Pinaud%202 Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        27.1,
-                        48.15
+                        -0.42,
+                        45.436
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Crvena Stijena",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Crvena%20Stijena Summary Data Sheet]"
+                    "title": "Cosava I",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Cosava%20I Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        18.481,
-                        42.779
+                        22.193,
+                        45.511
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Covalejos",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Covalejos Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -3.933,
+                        43.397
                     ]
                 }
             },
@@ -375,14 +403,14 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Doroshivtsi III",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Doroshivtsi%20III Summary Data Sheet]"
+                    "title": "Divje babe I",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Divje%20babe%20I Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        25.87,
-                        48.594
+                        13.546,
+                        46.064
                     ]
                 }
             },
@@ -403,56 +431,56 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Feldhofer Kirche",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Feldhofer%20Kirche Summary Data Sheet]"
+                    "title": "Esquicho-Grapaou",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Esquicho-Grapaou Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        6.946,
-                        51.227
+                        4.333,
+                        43.924
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Florian Seidl-Straße",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Florian%20Seidl-Straße Summary Data Sheet]"
+                    "title": "Ex-Casino",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ex-Casino Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        12.104,
-                        48.994
+                        7.533,
+                        43.784
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Fonte Santa",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Fonte%20Santa Summary Data Sheet]"
+                    "title": "Fontana Nuova",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Fontana%20Nuova Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -8.509,
-                        39.48
+                        14.579,
+                        36.802
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Fonte delle Mattinate",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Fonte%20delle%20Mattinate Summary Data Sheet]"
+                    "title": "Fontéchevade",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Fontéchevade Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        12.87,
-                        43.024
+                        0.48,
+                        45.679
                     ]
                 }
             },
@@ -467,20 +495,6 @@
                     "coordinates": [
                         13.1,
                         41.24
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Foz do Medal",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Foz%20do%20Medal Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -6.884,
-                        41.254
                     ]
                 }
             },
@@ -515,6 +529,20 @@
             {
                 "type": "Feature",
                 "properties": {
+                    "title": "Gato Preto",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gato%20Preto Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -8.929,
+                        39.339
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
                     "title": "Gatzarria",
                     "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gatzarria Summary Data Sheet]"
                 },
@@ -543,14 +571,42 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Grotte Boccard",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20Boccard Summary Data Sheet]"
+                    "title": "Getzersdorf",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Getzersdorf Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        4.587,
-                        47.248
+                        15.691,
+                        48.328
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Gohaud",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gohaud Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -2.157,
+                        47.19
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Goyet",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Goyet Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        5.009,
+                        50.447
                     ]
                 }
             },
@@ -571,14 +627,14 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Grotte Rainaude 1",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20Rainaude%201 Summary Data Sheet]"
+                    "title": "Grotte Tournal",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20Tournal Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        6.595,
-                        43.53
+                        2.867,
+                        43.333
                     ]
                 }
             },
@@ -613,20 +669,6 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Grotte de la Balme (Cuiseaux)",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20de%20la%20Balme%20(Cuiseaux) Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        5.385,
-                        46.513
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
                     "title": "Grotte de la Chèvre",
                     "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20de%20la%20Chèvre Summary Data Sheet]"
                 },
@@ -655,84 +697,28 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Grotte des Rideaux",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20des%20Rideaux Summary Data Sheet]"
+                    "title": "Große Ofnet",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Große%20Ofnet Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        0.666,
-                        43.233
+                        10.45,
+                        48.819
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Grotte du Figuier",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20du%20Figuier Summary Data Sheet]"
+                    "title": "Großweikersdorf",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Großweikersdorf Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        4.547,
-                        44.32
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Grotte du Pech Merle",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20du%20Pech%20Merle Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        1.644,
-                        44.508
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Grub-Kranawetberg",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grub-Kranawetberg Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        16.834,
-                        48.419
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Gruta da Casa da Moura",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gruta%20da%20Casa%20da%20Moura Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -9.254,
-                        39.327
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Gruta da Furninha",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gruta%20da%20Furninha Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -9.401,
-                        39.356
+                        15.975,
+                        48.469
                     ]
                 }
             },
@@ -753,28 +739,28 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Gruta do Escoural",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gruta%20do%20Escoural Summary Data Sheet]"
+                    "title": "Gruta do Caldeirão",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gruta%20do%20Caldeirão Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -8.138,
-                        38.544
+                        -8.416,
+                        39.647
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Hadzi Prodanova",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Hadzi%20Prodanova Summary Data Sheet]"
+                    "title": "Göpfelsteinhöhle",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Göpfelsteinhöhle Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        20.21,
-                        43.62
+                        9.21,
+                        48.18
                     ]
                 }
             },
@@ -809,6 +795,34 @@
             {
                 "type": "Feature",
                 "properties": {
+                    "title": "Hui",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Hui Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.906,
+                        44.272
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Ilsenhöhle",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ilsenhöhle Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        11.565,
+                        50.663
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
                     "title": "Isturitz",
                     "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Isturitz Summary Data Sheet]"
                 },
@@ -823,28 +837,56 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Karreg-Ar-Yellan",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Karreg-Ar-Yellan Summary Data Sheet]"
+                    "title": "Kartstein_große Höhle",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kartstein_große%20Höhle Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -3.023,
-                        48.821
+                        6.66,
+                        50.545
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Kastritsa",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kastritsa Summary Data Sheet]"
+                    "title": "Kartstein_kleine Höhle",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kartstein_kleine%20Höhle Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        20.91,
-                        39.63
+                        6.659,
+                        50.546
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Kebara Cave",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kebara%20Cave Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        34.936,
+                        32.558
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Keilberg-Kirche",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Keilberg-Kirche Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        12.151,
+                        49.068
                     ]
                 }
             },
@@ -865,84 +907,28 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Koblenz-Metternich",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Koblenz-Metternich Summary Data Sheet]"
+                    "title": "Kleine Ofnet",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kleine%20Ofnet Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        7.555,
-                        50.356
+                        10.45,
+                        48.819
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Korman 9",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Korman%209 Summary Data Sheet]"
+                    "title": "Klissoura 1",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Klissoura%201 Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        27.148,
-                        48.574
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Kostenki 21",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kostenki%2021 Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        39.043,
-                        51.409
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Kostenki 8",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kostenki%208 Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        39.062,
-                        51.37
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Kostenki 9",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kostenki%209 Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        39.061,
-                        51.373
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Kozarnika",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kozarnika Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        22.704,
-                        43.652
+                        22.808,
+                        37.69
                     ]
                 }
             },
@@ -963,20 +949,6 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Krems-Wachtberg",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Krems-Wachtberg Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        15.6,
-                        48.414
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
                     "title": "La Cala",
                     "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=La%20Cala Summary Data Sheet]"
                 },
@@ -985,6 +957,20 @@
                     "coordinates": [
                         15.381,
                         40.001
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "La Chaise - Bourgeois-Delaunay",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=La%20Chaise%20-%20Bourgeois-Delaunay Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.447,
+                        45.67
                     ]
                 }
             },
@@ -1033,56 +1019,14 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Lagar Velho",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Lagar%20Velho Summary Data Sheet]"
+                    "title": "Langmannersdorf Lagerplatz B",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Langmannersdorf%20Lagerplatz%20B Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -8.733,
-                        39.757
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Langenlois_Fundstelle A",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Langenlois_Fundstelle%20A Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        15.686,
-                        48.467
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Langenlois_Fundstelle B",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Langenlois_Fundstelle%20B Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        15.686,
-                        48.467
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Lapa do Anecrial",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Lapa%20do%20Anecrial Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -8.757,
-                        39.542
+                        15.834,
+                        48.281
                     ]
                 }
             },
@@ -1103,20 +1047,6 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Laugerie-Haute",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Laugerie-Haute Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        1.001,
-                        44.952
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
                     "title": "Laussel_Grand Abri",
                     "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Laussel_Grand%20Abri Summary Data Sheet]"
                 },
@@ -1131,14 +1061,14 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Le Bois-du-Roc_Abri André Ragout",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Le%20Bois-du-Roc_Abri%20André%20Ragout Summary Data Sheet]"
+                    "title": "Le Baste",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Le%20Baste Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        0.422,
-                        45.684
+                        -1.46,
+                        43.479
                     ]
                 }
             },
@@ -1173,28 +1103,42 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Le Prissé",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Le%20Prissé Summary Data Sheet]"
+                    "title": "Le Moustier_Abri inférieur",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Le%20Moustier_Abri%20inférieur Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -1.459,
-                        43.482
+                        1.06,
+                        44.995
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Les Bossards - Ormesson",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Les%20Bossards%20-%20Ormesson Summary Data Sheet]"
+                    "title": "Le Piage",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Le%20Piage Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        2.662,
-                        48.251
+                        1.364,
+                        44.797
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Les Cottés",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Les%20Cottés Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.841,
+                        46.692
                     ]
                 }
             },
@@ -1215,28 +1159,28 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Lezetxiki",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Lezetxiki Summary Data Sheet]"
+                    "title": "Les Rois",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Les%20Rois Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -2.529,
-                        43.079
+                        0.143,
+                        45.54
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Mainz-Linsenberg",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Mainz-Linsenberg Summary Data Sheet]"
+                    "title": "Lommersum",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Lommersum Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        8.261,
-                        49.994
+                        6.78,
+                        50.694
                     ]
                 }
             },
@@ -1257,14 +1201,14 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Mayenne-Sciences",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Mayenne-Sciences Summary Data Sheet]"
+                    "title": "Marigny",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Marigny Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -0.404,
-                        47.991
+                        3.261,
+                        46.949
                     ]
                 }
             },
@@ -1299,14 +1243,28 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Molodova V",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Molodova%20V Summary Data Sheet]"
+                    "title": "Mokriska jama",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Mokriska%20jama Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        26.62,
-                        48.504
+                        14.34,
+                        46.183
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Nikolaushöhle",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Nikolaushöhle Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        9.212,
+                        48.177
                     ]
                 }
             },
@@ -1327,126 +1285,42 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Paglicci",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Paglicci Summary Data Sheet]"
+                    "title": "Pego do Diabo",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pego%20do%20Diabo Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        15.553,
-                        41.69
+                        -9.22,
+                        38.863
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Pair-non-Pair",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pair-non-Pair Summary Data Sheet]"
+                    "title": "Pentecosi",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pentecosi Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -0.502,
-                        45.039
+                        10.39,
+                        44.13
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Pesturina",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pesturina Summary Data Sheet]"
+                    "title": "Potocka zijalka",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Potocka%20zijalka Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        21.54,
-                        43.1
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Piovesello",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Piovesello Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        9.35,
-                        44.38
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Plasenn-al-Lomm",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Plasenn-al-Lomm Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -2.991,
-                        48.864
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Predmosti I Skalka",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Predmosti%20I%20Skalka Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        17.437,
-                        49.468
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Predmosti II Hradisko",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Predmosti%20II%20Hradisko Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        17.437,
-                        49.469
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Rio Secco",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Rio%20Secco Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        12.88,
-                        46.24
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Riparo del Poggio",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Riparo%20del%20Poggio Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        15.387,
-                        39.998
+                        14.401,
+                        46.266
                     ]
                 }
             },
@@ -1467,28 +1341,42 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Roccia San Sebastiano",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Roccia%20San%20Sebastiano Summary Data Sheet]"
+                    "title": "Romanesti-Dumbravita",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Romanesti-Dumbravita Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        14.13,
-                        41.231
+                        22.192,
+                        45.49
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Salching",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Salching Summary Data Sheet]"
+                    "title": "Régismont-le-Haut",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Régismont-le-Haut Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        12.567,
-                        48.817
+                        3.096,
+                        43.308
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Saint-Césaire",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Saint-Césaire Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -0.505,
+                        45.749
                     ]
                 }
             },
@@ -1509,6 +1397,48 @@
             {
                 "type": "Feature",
                 "properties": {
+                    "title": "Sandalja II",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sandalja%20II Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.88,
+                        44.89
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Schafstall II",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Schafstall%20II Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        9.212,
+                        48.177
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Senftenberg",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Senftenberg Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        15.544,
+                        48.452
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
                     "title": "Sirgenstein",
                     "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sirgenstein Summary Data Sheet]"
                 },
@@ -1517,20 +1447,6 @@
                     "coordinates": [
                         9.761,
                         48.387
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Siuren I",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Siuren%20I Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        33.807,
-                        44.651
                     ]
                 }
             },
@@ -1551,14 +1467,28 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Sunghir",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sunghir Summary Data Sheet]"
+                    "title": "Stajnia Cave",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Stajnia%20Cave Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        40.51,
-                        56.18
+                        19.484,
+                        50.616
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Stratzing/Krems-Rehberg",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Stratzing/Krems-Rehberg Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        15.603,
+                        48.441
                     ]
                 }
             },
@@ -1579,42 +1509,28 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Terra do Manuel",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Terra%20do%20Manuel Summary Data Sheet]"
+                    "title": "Tincova",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Tincova Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -8.992,
-                        39.345
+                        22.924,
+                        45.336
                     ]
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Trencianske Bohuslavice-Pod Tureckom",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Trencianske%20Bohuslavice-Pod%20Tureckom Summary Data Sheet]"
+                    "title": "Trou Al Wesse",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Trou%20Al%20Wesse Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        17.854,
-                        48.801
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Trou de la Mère Clochette",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Trou%20de%20la%20Mère%20Clochette Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        5.571,
-                        47.13
+                        5.294,
+                        50.43
                     ]
                 }
             },
@@ -1635,14 +1551,14 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Vale Boi",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Vale%20Boi Summary Data Sheet]"
+                    "title": "Vale de Porcos",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Vale%20de%20Porcos Summary Data Sheet]"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -8.809,
-                        37.09
+                        -8.916,
+                        39.332
                     ]
                 }
             },
@@ -1663,34 +1579,6 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "title": "Vau",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Vau Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -8.267,
-                        40.78
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": "Vigne Brun",
-                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Vigne%20Brun Summary Data Sheet]"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        4.022,
-                        45.979
-                    ]
-                }
-            },
-            {
-                "type": "Feature",
-                "properties": {
                     "title": "Vindija",
                     "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Vindija Summary Data Sheet]"
                 },
@@ -1699,6 +1587,20 @@
                     "coordinates": [
                         16.072,
                         46.299
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Vogelherd",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Vogelherd Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        10.18,
+                        48.59
                     ]
                 }
             },
@@ -1741,6 +1643,20 @@
                     "coordinates": [
                         15.404,
                         48.323
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "title": "Yafteh",
+                    "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Yafteh Summary Data Sheet]"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        48.211,
+                        33.508
                     ]
                 }
             }
