@@ -1,3 +1,22 @@
+# Table with Cultural periods
+PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>
+PREFIX wgs84_pos: <https://www.w3.org/2003/01/geo/wgs84_pos#>
+
+SELECT  DISTINCT (?culture) ?title ?lon ?lat
+WHERE {
+  ?w a road:archaeological_stratigraphy.
+  ?w road:archaeological_stratigraphy\#CulturalPeriod "Upper Paleolithic".
+  ?w road:archaeological_stratigraphy\#idarchstrat ?idarchstrat.
+  ?x a road:ArchaeologicalLayer.
+  ?x road:ArchaeologicalLayer\#archstratigraphyIdArchstrat ?idarchstrat.
+  ?x road:ArchaeologicalLayer\#localityId ?title.
+  ?y a road:Locality.
+  ?y road:Locality\#id ?title.
+  ?y wgs84_pos:long ?lon.
+  ?y wgs84_pos:lat ?lat.
+} ORDER BY ?title
+
+
 # Table with Coordinates
 ```
 PREFIX road: <https://www.roceeh.uni-tuebingen.de/road/>

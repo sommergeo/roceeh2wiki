@@ -11,7 +11,7 @@ The following Wikis are currently provided:
 |ROAD Content   |Wikimedia                                                                 |Wikipedia                                                                                                                 |
 |---------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 |Ahmarian       |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Ahmarian.map)       | |
-|Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Aurignacian.map)    | |
+|Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Aurignacian.map)    | [en](https://en.wikipedia.org/wiki/Aurignacian) |
 |Aterian        |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Aterian.map)        |[en](https://en.wikipedia.org/wiki/Aterian) [de](https://de.wikipedia.org/wiki/At%C3%A9rien) [fr](https://fr.wikipedia.org/wiki/At%C3%A9rien) [it](https://it.wikipedia.org/wiki/Cultura_ateriana) [es](https://es.wikipedia.org/wiki/Ateriense) [pt](https://pt.wikipedia.org/wiki/Cultura_ateriana)|
 |Chatelperronian|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Chatelperronian.map)|[en](https://en.wikipedia.org/wiki/Ch%C3%A2telperronian) [de](https://de.wikipedia.org/wiki/Ch%C3%A2telperronien) [fr](https://fr.wikipedia.org/wiki/Ch%C3%A2telperronien) [it](https://it.wikipedia.org/wiki/Castelperroniano) [es](https://es.wikipedia.org/wiki/Ch%C3%A2telperroniense) [pt](https://pt.wikipedia.org/wiki/Chatelperronense)|
 |Early Upper Paleolithic    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Early_Upper_Paleolithic.map)    | |
@@ -71,7 +71,7 @@ Web maps are implemented in Wikipedia by a `<mapframe>` element. The element's `
 ![Screenshot from Wikimedia Commons](docs/wikipedia_uluzzian_1000x700.png)
 
 ```html
-<mapframe text="Uluzzian sites (CC BY-SA 4.0 [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH])" longitude="16.3" latitude="41.5" zoom="5" width="450", height="350">
+<mapframe text="Selected Uluzzian sites from the [https://www.roceeh.uni-tuebingen.de/roadweb ROAD database] (CC BY-SA 4.0 ROCEEH)" longitude="16.3" latitude="41.5" zoom="5" width="450", height="350">
 {
   "type": "ExternalData",
   "service": "page",
