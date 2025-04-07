@@ -1,0 +1,27 @@
+{
+    "id": "EB2CCB02",
+    "path": "C:/data/proj/ROAD/roceeh2wiki/script/roceeh2wiki.R",
+    "project_path": "script/roceeh2wiki.R",
+    "type": "r_source",
+    "hash": "775318533",
+    "contents": "",
+    "dirty": false,
+    "created": 1744044702537.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "76,0",
+        "scrollLine": "45"
+    },
+    "folds": "80|54|118|0|\n",
+    "lastKnownWriteTime": 1744059008,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1744059008814,
+    "read_only": false,
+    "read_only_alternatives": []
+}
