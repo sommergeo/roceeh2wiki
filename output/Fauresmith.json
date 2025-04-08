@@ -4,7 +4,7 @@
     "de": "Ausgewählte Fauresmith Fundstellen aus der ROAD Datenbank",
     "en": "Selected Fauresmith sites from the ROAD Database"
   },
-  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-07.",
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-08.",
   "data": {
     "type": "FeatureCollection",
     "features": [
@@ -12,7 +12,7 @@
         "type": "Feature",
         "properties": {
           "title": "Bestwood 1",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bestwood%201 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bestwood%201 Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -23,7 +23,7 @@
         "type": "Feature",
         "properties": {
           "title": "Canteen Kopje",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Canteen%20Kopje Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Canteen%20Kopje Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -34,7 +34,7 @@
         "type": "Feature",
         "properties": {
           "title": "Kathu Pan 1",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kathu%20Pan%201 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kathu%20Pan%201 Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -45,7 +45,7 @@
         "type": "Feature",
         "properties": {
           "title": "Kathu Pan 6",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kathu%20Pan%206 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kathu%20Pan%206 Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -56,7 +56,7 @@
         "type": "Feature",
         "properties": {
           "title": "Muirton",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Muirton Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Muirton Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -67,7 +67,7 @@
         "type": "Feature",
         "properties": {
           "title": "Neuhof-Kowas",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Neuhof-Kowas Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Neuhof-Kowas Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -78,7 +78,7 @@
         "type": "Feature",
         "properties": {
           "title": "Newmans Pont",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Newmans%20Pont Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Newmans%20Pont Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -89,7 +89,7 @@
         "type": "Feature",
         "properties": {
           "title": "Pniel 6",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pniel%206 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pniel%206 Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -100,7 +100,7 @@
         "type": "Feature",
         "properties": {
           "title": "Powers Site",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Powers%20Site Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Powers%20Site Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -111,7 +111,7 @@
         "type": "Feature",
         "properties": {
           "title": "Riverview VI",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Riverview%20VI Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Riverview%20VI Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -122,7 +122,7 @@
         "type": "Feature",
         "properties": {
           "title": "Rooidam",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Rooidam Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Rooidam Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -133,7 +133,7 @@
         "type": "Feature",
         "properties": {
           "title": "Wonderwerk",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Wonderwerk Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Wonderwerk Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",

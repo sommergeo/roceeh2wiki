@@ -157,7 +157,7 @@ road_query_period('Middle Paleolithic') %>%
   wiki_json(commons_description = '{"en": "Selected Middle Paleolithic sites from the ROAD Database"}') %>%
   writeLines("output/Middle Paleolithic.json")
 
-# Middle Paleolithic
+# Upper Paleolithic
 road_query_period('Upper Paleolithic') %>%
   wiki_json(commons_description = '{"en": "Selected Upper Paleolithic sites from the ROAD Database"}') %>%
   writeLines("output/Upper Paleolithic.json")
@@ -240,6 +240,21 @@ road_query_culture('Still Bay') %>%
 road_query_culture('Uluzzian') %>%
   wiki_json(commons_description = '{"de": "Ausgewählte Uluzzien Fundstellen aus der ROAD Datenbank", "en": "Selected Uluzzian sites from the ROAD Database"}') %>%
   writeLines("output/Uluzzian.json")
+
+# Early fire use 
+read_excel('input/Early fire.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected sites with early human fire use from the ROAD Database"}') %>% 
+  writeLines("output/Early fire.json")
+
+# Ochre use 
+read_excel('input/Ochre.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected sites with early human ochre use in Africa from the ROAD Database"}') %>% 
+  writeLines("output/Ochre.json")
+
+# Eyed needle
+read_excel('input/Eyed needle.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected sites with early human use of eyed needles from the ROAD Database"}') %>% 
+  writeLines("output/Eyed needles.json")
 
 # Sahelanthropus tchadensis
 read_excel('input/Sahelanthropus tchadensis.xlsx') %>% road_query_table(desc=T) %>% 

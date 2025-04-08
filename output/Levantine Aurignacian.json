@@ -4,7 +4,7 @@
     "de": "Ausgewählte Fundstellen des levante-Aurignacien aus der ROAD Datenbank",
     "en": "Selected Levantine Aurignacian sites from the ROAD Database"
   },
-  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-07.",
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-08.",
   "data": {
     "type": "FeatureCollection",
     "features": [
@@ -12,7 +12,7 @@
         "type": "Feature",
         "properties": {
           "title": "Hayonim Cave",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Hayonim%20Cave Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Hayonim%20Cave Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -23,7 +23,7 @@
         "type": "Feature",
         "properties": {
           "title": "Jebel Humeima",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Jebel%20Humeima Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Jebel%20Humeima Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -34,7 +34,7 @@
         "type": "Feature",
         "properties": {
           "title": "Ksar Akil",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ksar%20Akil Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ksar%20Akil Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -45,7 +45,7 @@
         "type": "Feature",
         "properties": {
           "title": "Sefunim Cave",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sefunim%20Cave Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sefunim%20Cave Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",
@@ -56,7 +56,7 @@
         "type": "Feature",
         "properties": {
           "title": "Umm el Tlel",
-          "decription": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Umm%20el%20Tlel Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Umm%20el%20Tlel Summary Data Sheet]"
         },
         "geometry": {
           "type": "Point",

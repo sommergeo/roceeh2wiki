@@ -1,0 +1,205 @@
+{
+  "license": "CC-BY-SA-4.0",
+  "description": {
+    "en": "Selected sites with early human use of eyed needles from the ROAD Database"
+  },
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-08.",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Aghitu-3 Cave",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Aghitu-3%20Cave Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [46.082, 39.514]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Denisova East chamber",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Denisova%20East%20chamber Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [84.677, 51.398]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Dzudzuana Cave",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Dzudzuana%20Cave Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [43.316, 42.313]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Khayrgas Cave",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Khayrgas%20Cave Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [117.5, 59.7]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Kostenki 15",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kostenki%2015 Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [39.062, 51.371]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Kunalei-4",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kunalei-4 Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [107.4, 50.3]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Kurtak-4",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kurtak-4 Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [90.9, 54.8]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Malta",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Malta Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [103.478, 53.133]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Mezmaiskaya Cave",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Mezmaiskaya%20Cave Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [40, 44.166]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Sabanikha",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sabanikha Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [90.874, 54.651]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Shestakovo",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Shestakovo Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [87.9, 55.9]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Shizitan 29",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Shizitan%2029 Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.589, 36.048]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Shuidonggou Locality 2",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Shuidonggou%20Locality%202 Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [106.503, 38.298]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Ust-Kova",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ust-Kova Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [100.339, 58.292]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Xiaogushan cave site",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Xiaogushan%20cave%20site Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [122.974, 40.579]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Yana RHS",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Yana%20RHS Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [135.417, 70.717]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Zhoukoudian Upper Cave",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Zhoukoudian%20Upper%20Cave Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [115.924, 39.694]
+        }
+      }
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    }
+  }
+}

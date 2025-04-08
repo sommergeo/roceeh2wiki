@@ -1,0 +1,139 @@
+{
+  "license": "CC-BY-SA-4.0",
+  "description": {
+    "en": "Selected sites with early human fire use from the ROAD Database"
+  },
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-08.",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Chesowanja",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Chesowanja Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [36.2, 0.65]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Florisbad",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Florisbad Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [26.07, -28.768]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Gadeb",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gadeb Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [39.333, 7.133]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Gesher Benot Ya'aqov",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gesher%20Benot%20Ya'aqov Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [35.629, 33.008]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Kabwe/Broken Hill",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kabwe/Broken%20Hill Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [28.43, -14.45]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Kalambo Falls",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kalambo%20Falls Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [31.24, -8.59]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Koobi Fora",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Koobi%20Fora Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [36.3, 3.75]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Olorgesailie",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Olorgesailie Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [36.445, -1.578]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Swartkrans",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Swartkrans Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [27.756, -25.969]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Wonderwerk",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Wonderwerk Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [23.554, -27.846]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Zhoukoudian",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Zhoukoudian Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [115.9, 39.7]
+        }
+      }
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    }
+  }
+}
