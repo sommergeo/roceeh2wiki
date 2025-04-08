@@ -1,0 +1,62 @@
+{
+  "license": "CC-BY-SA-4.0",
+  "description": {
+    "en": "Selected Australopithecus africanus sites from the ROAD Database"
+  },
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-08.",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Gladysvale",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gladysvale Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [27.75, -25.9]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Makapansgat",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Makapansgat Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [29.189, -24.141]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Sterkfontein",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sterkfontein Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [27.735, -26.016]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Taung",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Taung Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [24.634, -27.62]
+        }
+      }
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    }
+  }
+}

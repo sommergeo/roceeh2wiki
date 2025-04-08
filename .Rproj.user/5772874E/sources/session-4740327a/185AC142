@@ -1,26 +1,26 @@
 {
-    "id": "327B1291",
-    "path": "C:/data/proj/ROAD/road/R/road_package.R",
+    "id": "185AC142",
+    "path": "C:/data/proj/ROAD/road/old.trash/road.R",
     "project_path": null,
     "type": "r_source",
-    "hash": "4155563734",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1744049901289.0,
+    "created": 1744049677475.0,
     "source_on_save": false,
-    "relative_order": 5,
+    "relative_order": 3,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "151,0",
-        "scrollLine": "101"
+        "cursorPosition": "11,158",
+        "scrollLine": "1"
     },
     "folds": "",
-    "lastKnownWriteTime": 1742211360,
+    "lastKnownWriteTime": 1723553959,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1742211360,
+    "last_content_update": 1723553959,
     "read_only": false,
     "read_only_alternatives": []
 }

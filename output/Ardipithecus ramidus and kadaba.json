@@ -1,0 +1,40 @@
+{
+  "license": "CC-BY-SA-4.0",
+  "description": {
+    "en": "Selected Ardipithecus ramidus and A. kadaba sites from the ROAD Database"
+  },
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-08.",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Aramis",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Aramis Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [40.972, 12.063]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Middle Awash",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Middle%20Awash Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [40.55, 10.36]
+        }
+      }
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    }
+  }
+}

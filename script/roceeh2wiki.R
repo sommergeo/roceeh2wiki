@@ -5,6 +5,7 @@ library(RPostgres)
 library(jsonlite)
 library(lubridate)
 library(geojsonsf)
+library(readxl)
 
 #### Functions -----------------------------------------------------------------
 
@@ -12,7 +13,7 @@ library(geojsonsf)
 con <- dbConnect(RPostgres::Postgres(), dbname = "roceeh", host="134.2.216.14", port=5432, user=rstudioapi::askForPassword("Database username"), password=rstudioapi::askForPassword("Database password"))
 
 # Query function
-road_query_culture <- function(culture, spatial=F){
+road_query_culture <- function(culture){
   
   # Prepare query
   if(exists('culture')){
@@ -44,7 +45,7 @@ road_query_culture <- function(culture, spatial=F){
   return(dat)
 }
 
-road_query_period <- function(period, spatial=F){
+road_query_period <- function(period){
   
   # Prepare query
   if(exists('period')){
@@ -75,8 +76,21 @@ road_query_period <- function(period, spatial=F){
   return(dat)
 }
 
+road_query_table <- function(table, desc=F){
 
-
+  dat <- table %>% na.omit()
+  dat <- dat %>% arrange(title)
+  
+  # Append ROAD Summary Data Sheet link
+  if(desc==T){
+    dat <- dat %>% 
+      mutate(description = paste0("[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=",
+                                  str_replace_all(title, " " ,"%20"),
+                                  " Summary Data Sheet]"))
+  }
+  
+  return(dat)
+}
 
 wiki_json <- function(df, commons_description = ' ') {
   # Head of JSON
@@ -120,13 +134,33 @@ wiki_json <- function(df, commons_description = ' ') {
 
 # ESA
 road_query_period('ESA') %>%
-  wiki_json(commons_description = '{"de": "Ausgewählte Early Stone Age Fundstellen aus der ROAD Datenbank", "en": "Selected Early Stone Age sites from the ROAD Database"}') %>%
-  writeLines("output/ESA.json")
+  wiki_json(commons_description = '{"en": "Selected Early Stone Age sites from the ROAD Database"}') %>%
+  writeLines("output/Early Stone Age.json")
 
 # MSA
 road_query_period('MSA') %>%
-  wiki_json(commons_description = '{"de": "Ausgewählte Middle Stone Age Fundstellen aus der ROAD Datenbank", "en": "Selected Middle Stone Age sites from the ROAD Database"}') %>%
-  writeLines("output/MSA.json")
+  wiki_json(commons_description = '{"en": "Selected Middle Stone Age sites from the ROAD Database"}') %>%
+  writeLines("output/Middle Stone Age.json")
+
+# MSA
+road_query_period('LSA') %>%
+  wiki_json(commons_description = '{"en": "Selected Later Stone Age sites from the ROAD Database"}') %>%
+  writeLines("output/Later Stone Age.json")
+
+# Lower Paleolithic
+road_query_period('Lower Paleolithic') %>%
+  wiki_json(commons_description = '{"en": "Selected Lower Paleolithic sites from the ROAD Database"}') %>%
+  writeLines("output/Lower Paleolithic.json")
+
+# Middle Paleolithic
+road_query_period('Middle Paleolithic') %>%
+  wiki_json(commons_description = '{"en": "Selected Middle Paleolithic sites from the ROAD Database"}') %>%
+  writeLines("output/Middle Paleolithic.json")
+
+# Middle Paleolithic
+road_query_period('Upper Paleolithic') %>%
+  wiki_json(commons_description = '{"en": "Selected Upper Paleolithic sites from the ROAD Database"}') %>%
+  writeLines("output/Upper Paleolithic.json")
 
 # Ahmarian
 road_query_culture('Ahmarian') %>%
@@ -206,3 +240,63 @@ road_query_culture('Still Bay') %>%
 road_query_culture('Uluzzian') %>%
   wiki_json(commons_description = '{"de": "Ausgewählte Uluzzien Fundstellen aus der ROAD Datenbank", "en": "Selected Uluzzian sites from the ROAD Database"}') %>%
   writeLines("output/Uluzzian.json")
+
+# Sahelanthropus tchadensis
+read_excel('input/Sahelanthropus tchadensis.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Sahelanthropus tchadensis sites from the ROAD Database"}') %>% 
+  writeLines("output/Sahelanthropus tchadensis.json")
+
+# Ardipithecus ramidus and kadaba
+read_excel('input/Ardipithecus ramidus and kadaba.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Ardipithecus ramidus and A. kadaba sites from the ROAD Database"}') %>% 
+  writeLines("output/Ardipithecus ramidus and kadaba.json")
+
+# Australopithecus afarensis
+read_excel('input/Australopithecus afarensis.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Australopithecus afarensis sites from the ROAD Database"}') %>% 
+  writeLines("output/Australopithecus afarensis.json")
+
+# Australopithecus africanus
+read_excel('input/Australopithecus africanus.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Australopithecus africanus sites from the ROAD Database"}') %>% 
+  writeLines("output/Australopithecus africanus.json")
+
+# Paranthropus boisei
+read_excel('input/Paranthropus boisei.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Paranthropus boisei sites from the ROAD Database"}') %>% 
+  writeLines("output/Paranthropus boisei.json")
+
+# Homo rudolfensis
+read_excel('input/Homo rudolfensis.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Homo rudolfensis sites from the ROAD Database"}') %>% 
+  writeLines("output/Homo rudolfensis.json")
+
+# Homo habilis
+read_excel('input/Homo habilis.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Homo habilis sites from the ROAD Database"}') %>% 
+  writeLines("output/Homo habilis.json")
+
+# Homo erectus
+read_excel('input/Homo erectus.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Homo erectus sites from the ROAD Database"}') %>% 
+  writeLines("output/Homo erectus.json")
+
+# Homo ergaster
+read_excel('input/Homo ergaster.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Homo ergaster sites from the ROAD Database"}') %>% 
+  writeLines("output/Homo ergaster.json")
+
+# Homo heidelbergensis
+read_excel('input/Homo heidelbergensis.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Homo heidelbergensis sites from the ROAD Database"}') %>% 
+  writeLines("output/Homo heidelbergensis.json")
+
+# Homo sapiens neanderthalensis
+read_excel('input/Homo sapiens neanderthalensis.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Homo sapiens neanderthalensis sites from the ROAD Database"}') %>% 
+  writeLines("output/Homo sapiens neanderthalensis.json")
+
+# Homo sapiens
+read_excel('input/Homo sapiens.xlsx') %>% road_query_table(desc=T) %>% 
+  wiki_json(commons_description = '{"en": "Selected Homo sapiens sites from the ROAD Database"}') %>% 
+  writeLines("output/Homo sapiens.json")

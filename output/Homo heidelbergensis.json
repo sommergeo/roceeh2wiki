@@ -1,0 +1,139 @@
+{
+  "license": "CC-BY-SA-4.0",
+  "description": {
+    "en": "Selected Homo heidelbergensis sites from the ROAD Database"
+  },
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-08.",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Biache-Saint-Vaast",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Biache-Saint-Vaast Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.949, 50.314]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Florisbad",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Florisbad Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [26.07, -28.768]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Fontana Ranuccio",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Fontana%20Ranuccio Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [13.35, 41.63]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Grotte du Lazaret",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20du%20Lazaret Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [7.295, 43.691]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Hoedjiespunt",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Hoedjiespunt Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [17.96, -33.029]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Kabwe",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kabwe Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [28.433, -14.45]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "La Polledrara di Cecanibbio",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=La%20Polledrara%20di%20Cecanibbio Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [12.3, 41.93]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Mauer",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Mauer Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [8.81, 49.35]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Netankheri",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Netankheri Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.885, 22.84]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Saldanha",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Saldanha Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [18.24, -33.1]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Steinheim",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Steinheim Summary Data Sheet]"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [9.283, 48.967]
+        }
+      }
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    }
+  }
+}

@@ -11,9 +11,14 @@ The following Wikis are currently provided:
 |ROAD Content   |Wikimedia                                                                 |Wikipedia                                                                                                                 |
 |---------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 |Early Stone Age|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Early_Stone_Age.map)| |
+|Middle Stone Age|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Middle_Stone_Age.map)| |
+|Middle Stone Age|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Middle_Stone_Age.map)| |
+|Lower Paleolithic|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Lower_Paleolithic.map)| |
+|Middle Paleolithic|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Middle_Paleolithic.map)| |
+|Upper Paleolithic|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Upper_Paleolithic.map)| |
 |Ahmarian       |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Ahmarian.map)       | |
-|Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Aurignacian.map)    | [en](https://en.wikipedia.org/wiki/Aurignacian) |
 |Aterian        |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Aterian.map)        |[en](https://en.wikipedia.org/wiki/Aterian) [de](https://de.wikipedia.org/wiki/At%C3%A9rien) [fr](https://fr.wikipedia.org/wiki/At%C3%A9rien) [it](https://it.wikipedia.org/wiki/Cultura_ateriana) [es](https://es.wikipedia.org/wiki/Ateriense) [pt](https://pt.wikipedia.org/wiki/Cultura_ateriana)|
+|Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Aurignacian.map)    | [en](https://en.wikipedia.org/wiki/Aurignacian) |
 |Chatelperronian|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Chatelperronian.map)|[en](https://en.wikipedia.org/wiki/Ch%C3%A2telperronian) [de](https://de.wikipedia.org/wiki/Ch%C3%A2telperronien) [fr](https://fr.wikipedia.org/wiki/Ch%C3%A2telperronien) [it](https://it.wikipedia.org/wiki/Castelperroniano) [es](https://es.wikipedia.org/wiki/Ch%C3%A2telperroniense) [pt](https://pt.wikipedia.org/wiki/Chatelperronense)|
 |Early Upper Paleolithic    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Early_Upper_Paleolithic.map)    | |
 |Fauresmith     |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Fauresmith.map)     |[en](https://en.wikipedia.org/wiki/Fauresmith_(industry)) [de](https://de.wikipedia.org/wiki/Fauresmith-Industrie) [fr](https://fr.wikipedia.org/wiki/Fauresmithien) [es](https://es.wikipedia.org/wiki/Fauresmithiense)|
@@ -26,7 +31,18 @@ The following Wikis are currently provided:
 |Solutrean      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Solutrean.map)      ||
 |Still Bay      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Still_Bay.map)      |[en](https://en.wikipedia.org/wiki/Stillbay) [fr](https://fr.wikipedia.org/wiki/Stillbay) [es](https://es.wikipedia.org/wiki/Stillbayense)|
 |Uluzzian       |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Uluzzian.map)       |[en](https://en.wikipedia.org/wiki/Uluzzian) [de](https://de.wikipedia.org/wiki/Uluzzien) [fr](https://fr.wikipedia.org/wiki/Uluzzien) [es](https://es.wikipedia.org/wiki/Cultura_Uluzziana) [pt](https://pt.wikipedia.org/wiki/Cultura_Uluzziana) |
-
+|Sahelanthropus tchadensis|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Sahelanthropus_tchadensis.map)| |
+|Ardipithecus ramidus and kadaba|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Ardipithecus_ramidus_and_kadaba.map)| |
+|Australopithecus afarensis|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Australopithecus_afarensis.map)| |
+|Australopithecus africanus|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Australopithecus_africanus.map)| |
+|Paranthropus boisei|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Paranthropus_boisei.map)| |
+|Homo rudolfensis|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Homo_rudolfensis.map)| |
+|Homo habilis|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Homo_habilis.map)| |
+|Homo erectus|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Homo_erectus.map)| |
+|Homo ergaster|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Homo_ergaster.map)| |
+|Homo heidelbergensis|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Homo_heidelbergensis.map)| |
+|Homo sapiens neanderthalensis|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Homo_sapiens_neanderthalensis.map)| |
+|Homo sapiens|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Homo_sapiens.map)| |
 
 ## Use
 
