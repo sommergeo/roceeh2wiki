@@ -1,21 +1,23 @@
 # roceeh2wiki
-This repo contains tools to publish geodata from the [ROCEEH Out of Africa Database (ROAD)](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php) to Wikipedia maps. The tools help to query data from ROAD's [SPARQL](http://www.roceeh.uni-tuebingen.de/roadweb/smarty_sparql_select.php "Must be logged in to enter webform") endpoint and convert the results to the JSON schema of Wikipedia's map extension [Kartographer](https://www.mediawiki.org/wiki/Help:Extension:Kartographer).
-The JSON files can be pasted to Wikimedia Commons, which then are linked to Wikis.
- 
+This repo contains tools to publish geodata from the [ROCEEH Out of Africa Database (ROAD)](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php) to Wikipedia maps. The tools help to query data from ROAD's R interface and convert the results to the JSON schema of Wikipedia's map extension [Kartographer](https://www.mediawiki.org/wiki/Help:Extension:Kartographer).
+The JSON files can be uploaded to Wikimedia Commons and referenced within Wikipedia.
 
-![Workflow of the roceeh2wiki package](docs/workflow_small.png)
+Interactive maps derived from ROAD are reviewed by colleagues with scientific expertise and, once approved, published on Wikipedia. The criterion here is not absolute completeness, as the ROAD database and the state of scientific knowledge are constantly changing, but rather a “representative picture” of the current state of research. The data is updated regularly.
+
+![Workflow of the roceeh2wiki package](docs/workflow.png)
 
 ## Results
 The following Wikis are currently provided:
 
-|ROAD Content   |Wikimedia                                                                 |Wikipedia                                                                                                                 |
-|---------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+|ROAD Content   |Wikimedia	|Wikipedia|
+|---------------|-----------|---------|
 |Early Stone Age|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Early_Stone_Age.map)|~~en~~ |
 |Middle Stone Age|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Middle_Stone_Age.map)|[en](https://en.wikipedia.org/wiki/Middle_Stone_Age)|
 |Later Stone Age|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Later_Stone_Age.map)|[en](https://en.wikipedia.org/wiki/Late_Stone_Age)|
 |Lower Paleolithic|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Lower_Paleolithic.map)|[en](https://en.wikipedia.org/wiki/Lower_Paleolithic)|
 |Middle Paleolithic|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Middle_Paleolithic.map)|[en](https://en.wikipedia.org/wiki/Middle_Paleolithic)|
 |Upper Paleolithic|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Upper_Paleolithic.map)|[en](https://en.wikipedia.org/wiki/Upper_Paleolithic)|
+|Acheulean      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Acheulean.map)|
 |Ahmarian       |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Ahmarian.map)       | |
 |Aterian        |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Aterian.map)        |[en](https://en.wikipedia.org/wiki/Aterian) [de](https://de.wikipedia.org/wiki/At%C3%A9rien) [fr](https://fr.wikipedia.org/wiki/At%C3%A9rien) [it](https://it.wikipedia.org/wiki/Cultura_ateriana) [es](https://es.wikipedia.org/wiki/Ateriense) [pt](https://pt.wikipedia.org/wiki/Cultura_ateriana)|
 |Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Aurignacian.map)    | [en](https://en.wikipedia.org/wiki/Aurignacian) [de](https://de.wikipedia.org/wiki/Aurignacien) [fr](https://fr.wikipedia.org/wiki/Aurignacien) [it](https://it.wikipedia.org/wiki/Aurignaziano) [es](https://es.wikipedia.org/wiki/Auri%C3%B1aciense) [pt](https://pt.wikipedia.org/wiki/Per%C3%ADodo_Aurignaciano)|
@@ -27,6 +29,7 @@ The following Wikis are currently provided:
 |Initial Upper Paleolithic    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Initial_Upper_Paleolithic_Eurasia.map)    | |
 |Levantine Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Levantine_Aurignacian.map)    | |
 |Micoquian      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Micoquian.map)      |[en](https://en.wikipedia.org/wiki/Micoquien) [de](https://de.wikipedia.org/wiki/Micoquien) [fr](https://fr.wikipedia.org/wiki/Micoquien) [es](https://es.wikipedia.org/wiki/Micoquiense)|
+|Mousterian     |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Mousterian.map)|
 |Proto-Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Proto_Aurignacian.map)    |~~en~~ ~~de~~ ~~fr~~ ~~it~~ ~~es~~ ~~pt~~ |
 |Solutrean      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Solutrean.map)      ||
 |Still Bay      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Still_Bay.map)      |[en](https://en.wikipedia.org/wiki/Stillbay) ~~de~~ [fr](https://fr.wikipedia.org/wiki/Stillbay) ~~it~~ [es](https://es.wikipedia.org/wiki/Stillbayense) ~~pt~~|
@@ -47,6 +50,9 @@ The following Wikis are currently provided:
 |Homo sapiens neanderthalensis|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Homo_sapiens_neanderthalensis.map)| |
 |Homo sapiens|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Homo_sapiens.map)| |
 
+We would like to thank the expert reviewers who helped us by checking the representativeness of the data, suggesting improvements and deciding on publication. In alphabetical order:
+Abay Namen, Andrew Kandel, Armando Falcucci, Giulia Marciani, Guido Bataille, Liane Giemsch, Rimtautas Dapschauskas, Ron Shimelmitz, and others!
+
 ## Use
 
 The program uses the script [roceeh2wiki.py](/script/roceeh2wiki.py) to iterate through [wiki_cultures.xlsx](/data/wiki_cultures.xlsx), a list of archaeological cultures to be queried from the ROAD database and published on Wikpedia. The spreadsheet contains 5 columns:
@@ -59,34 +65,26 @@ For each row that is flagged `use==T`, the script creates an output TXT file con
 
 ```
 .
-├── scripts                  
-│   └── roceeh2wiki.py       # Query cultures from ROAD and export to JSON
+├── scripts
+│   ├── roceeh2wiki.R 	    # Query data from ROAD and custom tables and export to JSON
+│   └── roceeh2wiki.py		# deprecated
 ├── data
-│   └── wiki_cultures.xlsx   # List with ROAD cultures and corresponding Wikis to process
+│   └── wiki_cultures.xlsx  # List with ROAD cultures and corresponding Wikis
+├── input
+│   ├── Homo sapiens.xlsx   # Custom list
+│   └── ...
 └── output
-    ├── Ahmarian.txt 	     # 1st culture
-    ├── Aterian.txt 	     # 2nd culture
-    └── ...		     # Many more results
-```
-
-```mermaid
-graph LR;
-    A(Start) --> B[road_query];
-    B --> C[wiki_json];
-    C --> D[Export to /output/road_culture.txt];
-    D --> E{Last item?};
-    E --> |yes| F[Manually paste to Wikimedia];
-    F --> G(End);
-    H(/data/wiki_cultures.xlsx) --> |road_culture| B;
-    H --> |description| C;
-    E --> |no| H;
+    ├── Acheulean.json		# Wiki-style json file
+    ├── Aterian.json
+    ├── Homo sapiens.json	
+    └── ...		     		# Many more results
 ```
 
 ## Background
 
 ### Maps in Wikipedia
 
-Web maps are implemented in Wikipedia by a `<mapframe>` element. The element's `text` argument is used as a subtitle of the map and cotains a name in the repsective language, the license and the source name. The mapframe points to a Wikimedia Commons file, referenced in the `"title"` tag.
+Web maps are implemented in Wikipedia using a `<mapframe>' element. The element's `text' argument is used as the subtitle of the map, and contains a name in the appropriate language, the license, and the source name. The mapframe points to a Wikimedia Commons file referenced by the `"title"` tag.
 
 ![Screenshot from Wikimedia Commons](docs/wikipedia_uluzzian_1000x700.png)
 
@@ -101,25 +99,25 @@ Web maps are implemented in Wikipedia by a `<mapframe>` element. The element's `
 ```
 
 ### Geodata in Wikimedia Commons
-Geodata for Wikipedia are collected in Wikimedia Commons for two reasons. First, GeoJSON files can be excessively long depending on its content, so that it disturbs the readability in the Wikipedia text editor. Second, contents in Wikimedia Commons can be accessed from Wikis in all languages, no cross-posting needed.
+Geospatial data for Wikipedia is collected in Wikimedia Commons for two reasons. First, depending on the content, GeoJSON files can be too long to be readable in the Wikipedia text editor. Second, content in Wikimedia Commons can be accessed by wikis in any language, without the need for cross-posting.
 
 ![Screenshot from Wikimedia Commons](docs/wikimedia_commons_uluzzian_1000x1000.png)
 
 #### URL
-All ROAD contents follow the URL-Schema `https://commons.wikimedia.org/wiki/Data:ROCEEH/*.map`, where  `*` denotes the content title. This file is accessible within Wikipedia as `ROCEEH/*.map`.
+All ROAD content follows the URL scheme `https://commons.wikimedia.org/wiki/Data:ROCEEH/*.map`, where `*` is the content title. The resulting file is accessible within Wikipedia as `ROCEEH/*.map`.
 
 #### JSON
-The following code is an exemple from the Uluzzian culture, and was shortened to show just one site, "Uluzzo C". The Kartographer schema uses a JSON file, which can be divided into general map information and geodata.
+The following code is an example from the Uluzzian culture, and has been truncated to show only one site, "Uluzzo C", for demonstration purposes. The cartographer schema uses a JSON file that can be split into general map information and geodata.
 
 - General map information:
 	- The `"license"` for all ROAD data is [CC BY-SA 4.0](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_data_use_policy.php) and therefore complies with Wikipedia's terms of use. 
-	- The `"description"` is shown in Wikimedia Commons as a subheading. Different languages can be used to translate to the target Wiki's title, e.g. English "Uluzzian" vs. German "Uluzzien".
-	- The `"sources"` tag is a standard text. The date of export is updated automatically.
-	- The tags `"zoom"`, `"latitude"` and `"longitude"` are optional and can be used to set the map's initial extent. The map engine however is smart enough to set a suitable extent automatically.
+	- The `"description"` is displayed as a subheading in Wikimedia Commons. Different languages may be used to translate to the title of the target wiki, e.g. English "Uluzzian" vs. German "Uluzzien".
+	- The `"sources"` tag is a default text. The export date is updated automatically.
+	- The `"zoom"`, `"latitude"` and `"longitude"` tags are optional and can be used to set the initial extent of the map. However, the map engine is smart enough to set an appropriate extent automatically.
 - Geodata:
-	- The `"data"` tag is at the heart of Wikipedia's JSON scheme and contains a standard GeoJSON file. Most of its contents are standardized. The appearance of the popup is defined in the features' `"properties"`. 
-		- The `"title"` contains the name of the site as exported from ROAD. _It is planned to optionally link to other Wikis, where available._ 
-		- The `"description"` always contains a link to the site's [Summary Data Sheet](https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Uluzzo%20C), a PDF generated with the URL `https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=*`, where `*` denotes the site's name. _It is planned to optionally include existing Wikipedia images and other contents, where available._
+	- The `"data"` tag is the heart of Wikipedia's JSON schema and contains a standard GeoJSON file. Most of its content is standardized. The appearance of the popup is defined in the `properties'` of the features. 
+		- The `"title"` contains the name of the site as exported from ROAD. It is planned to optionally link to other wikis where available. 
+		- The `"description"` always contains a link to the site's [Summary Data Sheet](https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Uluzzo%20C), a PDF generated with the URL `https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=*`, where `*` is the site name. It is planned to optionally include existing Wikipedia images and other content where available.
 ```json
 {
     "license": "CC-BY-SA-4.0",
@@ -161,11 +159,11 @@ The following code is an exemple from the Uluzzian culture, and was shortened to
 ```
 
 ### ROAD SPARQL endpoint
-The ROAD database is implemented as a relational SQL database, that can be accessed through a [web portal](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php) with many tools for querying, analyzing and visualizing. But the database is also regularly exported to RDF files, that can be queried through ROAD's **SPARQL endpoint** at `https://www.roceeh.uni-tuebingen.de/road/`. 
+The ROAD database is implemented as a relational SQL database that can be accessed through a [web portal](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php) with many tools for querying, analysis and visualization. The database is also regularly exported to RDF files, which can be queried via ROAD's **SPARQL endpoint** at `https://www.roceeh.uni-tuebingen.de/road/`.
 
 ![Screenshot from Wikimedia Commons](docs/road_sparql_1000x550.png)
 
-SPARQL queries can be requested through a [web interface](http://www.roceeh.uni-tuebingen.de/roadweb/smarty_sparql_select.php), which allows to export results to a HTML table, JSON, XML or CSV file. The following example shows a query for archaeological sites associated with the Uluzzian culture and returns their names and geocoordinates. Roceeh2wiki uses the Python library [sparql-dataframe](https://github.com/lawlesst/sparql-dataframe) to request data directly.
+SPARQL queries can be submitted through a [web interface] (http://www.roceeh.uni-tuebingen.de/roadweb/smarty_sparql_select.php), which allows results to be exported to an HTML table, JSON, XML, or CSV file. The following example shows a query for archaeological sites associated with the Uluzzian culture, returning their names and geocoordinates. Roceeh2wiki uses the Python library [sparql-dataframe](https://github.com/lawlesst/sparql-dataframe) to query data directly.
 
 
 ```sparql

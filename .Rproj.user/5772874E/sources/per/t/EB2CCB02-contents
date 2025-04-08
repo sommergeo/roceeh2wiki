@@ -39,7 +39,9 @@ road_query_culture <- function(culture){
   dat <- dat %>% 
     mutate(description = paste0("[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=",
                                str_replace_all(title, " " ,"%20"),
-                               " Summary Data Sheet]"))
+                               " Summary Data Sheet]"),
+           "marker-color" = '1e3283',
+           "marker-size" = 'small')
     
 
   return(dat)
@@ -69,8 +71,10 @@ road_query_period <- function(period){
   # Add link to ROAD Summary Data Sheets
   dat <- dat %>% 
     mutate(description = paste0("[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=",
-                               str_replace_all(title, " " ,"%20"),
-                               " Summary Data Sheet]"))
+                                str_replace_all(title, " " ,"%20"),
+                                " Summary Data Sheet]"),
+           "marker-color" = '1e3283',
+           "marker-size" = 'small')
   
   
   return(dat)
@@ -86,7 +90,9 @@ road_query_table <- function(table, desc=F){
     dat <- dat %>% 
       mutate(description = paste0("[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=",
                                   str_replace_all(title, " " ,"%20"),
-                                  " Summary Data Sheet]"))
+                                  " Summary Data Sheet]"),
+             "marker-color" = '1e3283',
+             "marker-size" = 'small')
   }
   
   return(dat)
@@ -142,7 +148,7 @@ road_query_period('MSA') %>%
   wiki_json(commons_description = '{"en": "Selected Middle Stone Age sites from the ROAD Database"}') %>%
   writeLines("output/Middle Stone Age.json")
 
-# MSA
+# LSA
 road_query_period('LSA') %>%
   wiki_json(commons_description = '{"en": "Selected Later Stone Age sites from the ROAD Database"}') %>%
   writeLines("output/Later Stone Age.json")
@@ -161,6 +167,11 @@ road_query_period('Middle Paleolithic') %>%
 road_query_period('Upper Paleolithic') %>%
   wiki_json(commons_description = '{"en": "Selected Upper Paleolithic sites from the ROAD Database"}') %>%
   writeLines("output/Upper Paleolithic.json")
+
+# Acheulean
+road_query_culture('%Acheule%') %>%
+  wiki_json(commons_description = '{"en": "Selected Acheulean sites from the ROAD Database"}') %>%
+  writeLines("output/Acheulean.json")
 
 # Ahmarian
 road_query_culture('Ahmarian') %>%
@@ -220,6 +231,11 @@ road_query_culture('Levantine Aurignacian') %>%
 road_query_culture('Micoquian') %>%
   wiki_json(commons_description = '{"de": "Ausgewählte Micoquien Fundstellen aus der ROAD Datenbank", "en": "Selected Micoquian sites from the ROAD Database"}') %>%
   writeLines("output/Micoquian.json")
+
+# Mousterian
+road_query_culture('%Mousterian%') %>%
+  wiki_json(commons_description = '{"en": "Selected Mousterian sites from the ROAD Database"}') %>%
+  writeLines("output/Mousterian.json")
 
 # Proto-Aurignacian
 road_query_culture('Proto-Aurignacian') %>%
@@ -315,3 +331,9 @@ read_excel('input/Homo sapiens neanderthalensis.xlsx') %>% road_query_table(desc
 read_excel('input/Homo sapiens.xlsx') %>% road_query_table(desc=T) %>% 
   wiki_json(commons_description = '{"en": "Selected Homo sapiens sites from the ROAD Database"}') %>% 
   writeLines("output/Homo sapiens.json")
+
+#### Test Area ----
+# Uluzzian
+road_query_culture('Uluzzian') %>%
+  wiki_json(commons_description = '{"en": "Selected Uluzzian sites from the ROAD Database"}') %>%
+  writeLines("output/test.json")
