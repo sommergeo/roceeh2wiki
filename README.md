@@ -10,7 +10,7 @@ The following Wikis are currently provided:
 
 |ROAD Content   |Wikimedia                                                                 |Wikipedia                                                                                                                 |
 |---------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-|Early Stone Age|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Early_Stone_Age.map)| |
+|Early Stone Age|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Early_Stone_Age.map)|~~en~~ |
 |Middle Stone Age|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Middle_Stone_Age.map)|[en](https://en.wikipedia.org/wiki/Middle_Stone_Age)|
 |Later Stone Age|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Later_Stone_Age.map)|[en](https://en.wikipedia.org/wiki/Late_Stone_Age)|
 |Lower Paleolithic|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Lower_Paleolithic.map)|[en](https://en.wikipedia.org/wiki/Lower_Paleolithic)|
@@ -18,22 +18,22 @@ The following Wikis are currently provided:
 |Upper Paleolithic|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Upper_Paleolithic.map)|[en](https://en.wikipedia.org/wiki/Upper_Paleolithic)|
 |Ahmarian       |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Ahmarian.map)       | |
 |Aterian        |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Aterian.map)        |[en](https://en.wikipedia.org/wiki/Aterian) [de](https://de.wikipedia.org/wiki/At%C3%A9rien) [fr](https://fr.wikipedia.org/wiki/At%C3%A9rien) [it](https://it.wikipedia.org/wiki/Cultura_ateriana) [es](https://es.wikipedia.org/wiki/Ateriense) [pt](https://pt.wikipedia.org/wiki/Cultura_ateriana)|
-|Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Aurignacian.map)    | [en](https://en.wikipedia.org/wiki/Aurignacian) |
+|Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Aurignacian.map)    | [en](https://en.wikipedia.org/wiki/Aurignacian) [de](https://de.wikipedia.org/wiki/Aurignacien) [fr](https://fr.wikipedia.org/wiki/Aurignacien) [it](https://it.wikipedia.org/wiki/Aurignaziano) [es](https://es.wikipedia.org/wiki/Auri%C3%B1aciense) [pt](https://pt.wikipedia.org/wiki/Per%C3%ADodo_Aurignaciano)|
 |Chatelperronian|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Chatelperronian.map)|[en](https://en.wikipedia.org/wiki/Ch%C3%A2telperronian) [de](https://de.wikipedia.org/wiki/Ch%C3%A2telperronien) [fr](https://fr.wikipedia.org/wiki/Ch%C3%A2telperronien) [it](https://it.wikipedia.org/wiki/Castelperroniano) [es](https://es.wikipedia.org/wiki/Ch%C3%A2telperroniense) [pt](https://pt.wikipedia.org/wiki/Chatelperronense)|
-|Early Upper Paleolithic    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Early_Upper_Paleolithic.map)    | |
-|Fauresmith     |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Fauresmith.map)     |[en](https://en.wikipedia.org/wiki/Fauresmith_(industry)) [de](https://de.wikipedia.org/wiki/Fauresmith-Industrie) [fr](https://fr.wikipedia.org/wiki/Fauresmithien) [es](https://es.wikipedia.org/wiki/Fauresmithiense)|
+|Early Upper Paleolithic    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Early_Upper_Paleolithic.map)    |~~en~~ ~~de~~ ~~fr~~ ~~it~~ ~~es~~ ~~pt~~ |
+|Fauresmith     |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Fauresmith.map)     |[en](https://en.wikipedia.org/wiki/Fauresmith_(industry)) [de](https://de.wikipedia.org/wiki/Fauresmith-Industrie) [fr](https://fr.wikipedia.org/wiki/Fauresmithien) ~~it~~ [es](https://es.wikipedia.org/wiki/Fauresmithiense) ~~pt~~|
 |Gravettian     |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Gravettian.map)     |[en](https://en.wikipedia.org/wiki/Gravettian) [de](https://de.wikipedia.org/wiki/Gravettien) [fr](https://fr.wikipedia.org/wiki/Gravettien)  [it](https://it.wikipedia.org/wiki/Gravettiano) [es](https://es.wikipedia.org/wiki/Gravetiense) [pt](https://pt.wikipedia.org/wiki/Per%C3%ADodo_Gravetiano)|
-|Howiesonspoort |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Howiesonspoort.map) |[en](https://en.wikipedia.org/wiki/Howiesons_Poort) [de](https://de.wikipedia.org/wiki/Howieson%E2%80%99s_Poort_Industrie) [fr](https://fr.wikipedia.org/wiki/Howiesons_Poort) [it](https://it.wikipedia.org/wiki/Howiesons_Poort) |
+|Howiesonspoort |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Howiesonspoort.map) |[en](https://en.wikipedia.org/wiki/Howiesons_Poort) [de](https://de.wikipedia.org/wiki/Howieson%E2%80%99s_Poort_Industrie) [fr](https://fr.wikipedia.org/wiki/Howiesons_Poort) [it](https://it.wikipedia.org/wiki/Howiesons_Poort) ~~es~~ ~~pt~~ |
 |Initial Upper Paleolithic    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Initial_Upper_Paleolithic_Eurasia.map)    | |
 |Levantine Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Levantine_Aurignacian.map)    | |
 |Micoquian      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Micoquian.map)      |[en](https://en.wikipedia.org/wiki/Micoquien) [de](https://de.wikipedia.org/wiki/Micoquien) [fr](https://fr.wikipedia.org/wiki/Micoquien) [es](https://es.wikipedia.org/wiki/Micoquiense)|
-|Proto-Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Proto_Aurignacian.map)    | |
+|Proto-Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Proto_Aurignacian.map)    |~~en~~ ~~de~~ ~~fr~~ ~~it~~ ~~es~~ ~~pt~~ |
 |Solutrean      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Solutrean.map)      ||
-|Still Bay      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Still_Bay.map)      |[en](https://en.wikipedia.org/wiki/Stillbay) [fr](https://fr.wikipedia.org/wiki/Stillbay) [es](https://es.wikipedia.org/wiki/Stillbayense)|
-|Uluzzian       |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Uluzzian.map)       |[en](https://en.wikipedia.org/wiki/Uluzzian) [de](https://de.wikipedia.org/wiki/Uluzzien) [fr](https://fr.wikipedia.org/wiki/Uluzzien) [es](https://es.wikipedia.org/wiki/Cultura_Uluzziana) [pt](https://pt.wikipedia.org/wiki/Cultura_Uluzziana) |
+|Still Bay      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Still_Bay.map)      |[en](https://en.wikipedia.org/wiki/Stillbay) ~~de~~ [fr](https://fr.wikipedia.org/wiki/Stillbay) ~~it~~ [es](https://es.wikipedia.org/wiki/Stillbayense) ~~pt~~|
+|Uluzzian       |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Uluzzian.map)       |[en](https://en.wikipedia.org/wiki/Uluzzian) [de](https://de.wikipedia.org/wiki/Uluzzien) [fr](https://fr.wikipedia.org/wiki/Uluzzien) ~~it~~ [es](https://es.wikipedia.org/wiki/Cultura_Uluzziana) [pt](https://pt.wikipedia.org/wiki/Cultura_Uluzziana) |
 |Early fire use|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Early_fire.map)|[en](https://en.wikipedia.org/wiki/Fire)|
 |Ochre use|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Ochre.map)|[en](https://en.wikipedia.org/wiki/Ochre)|
-|Eyed needle use|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Eyed_needle.map)|[en: Sewing needle](https://en.wikipedia.org/wiki/Sewing_needle)[en: Bone tool](https://en.wikipedia.org/wiki/Bone_tool)|
+|Eyed needle use|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Eyed_needle.map)|[en](https://en.wikipedia.org/wiki/Sewing_needle) [en](https://en.wikipedia.org/wiki/Bone_tool)|
 |Sahelanthropus tchadensis|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Sahelanthropus_tchadensis.map)| |
 |Ardipithecus ramidus and kadaba|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Ardipithecus_ramidus_and_kadaba.map)| |
 |Australopithecus afarensis|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Australopithecus_afarensis.map)| |
