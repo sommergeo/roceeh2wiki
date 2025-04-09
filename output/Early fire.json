@@ -3,7 +3,7 @@
   "description": {
     "en": "Selected sites with early human fire use from the ROAD Database"
   },
-  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-08.",
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-09.",
   "data": {
     "type": "FeatureCollection",
     "features": [
@@ -11,7 +11,9 @@
         "type": "Feature",
         "properties": {
           "title": "Chesowanja",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Chesowanja Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Chesowanja Summary Data Sheet]",
+          "marker-color": "f73718",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -22,7 +24,9 @@
         "type": "Feature",
         "properties": {
           "title": "Florisbad",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Florisbad Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Florisbad Summary Data Sheet]",
+          "marker-color": "f73718",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -33,7 +37,9 @@
         "type": "Feature",
         "properties": {
           "title": "Gadeb",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gadeb Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gadeb Summary Data Sheet]",
+          "marker-color": "f73718",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -44,7 +50,9 @@
         "type": "Feature",
         "properties": {
           "title": "Gesher Benot Ya'aqov",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gesher%20Benot%20Ya'aqov Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gesher%20Benot%20Ya'aqov Summary Data Sheet]",
+          "marker-color": "f73718",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -55,7 +63,9 @@
         "type": "Feature",
         "properties": {
           "title": "Kabwe/Broken Hill",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kabwe/Broken%20Hill Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kabwe/Broken%20Hill Summary Data Sheet]",
+          "marker-color": "f73718",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -66,7 +76,9 @@
         "type": "Feature",
         "properties": {
           "title": "Kalambo Falls",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kalambo%20Falls Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kalambo%20Falls Summary Data Sheet]",
+          "marker-color": "f73718",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -77,7 +89,9 @@
         "type": "Feature",
         "properties": {
           "title": "Koobi Fora",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Koobi%20Fora Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Koobi%20Fora Summary Data Sheet]",
+          "marker-color": "f73718",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -88,7 +102,9 @@
         "type": "Feature",
         "properties": {
           "title": "Olorgesailie",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Olorgesailie Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Olorgesailie Summary Data Sheet]",
+          "marker-color": "f73718",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -99,7 +115,9 @@
         "type": "Feature",
         "properties": {
           "title": "Swartkrans",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Swartkrans Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Swartkrans Summary Data Sheet]",
+          "marker-color": "f73718",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -110,7 +128,9 @@
         "type": "Feature",
         "properties": {
           "title": "Wonderwerk",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Wonderwerk Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Wonderwerk Summary Data Sheet]",
+          "marker-color": "f73718",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -121,7 +141,9 @@
         "type": "Feature",
         "properties": {
           "title": "Zhoukoudian",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Zhoukoudian Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Zhoukoudian Summary Data Sheet]",
+          "marker-color": "f73718",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",

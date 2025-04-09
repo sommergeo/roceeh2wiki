@@ -4,7 +4,7 @@
     "de": "Ausgewählte Howiesonspoort Fundstellen aus der ROAD Datenbank",
     "en": "Selected Howiesonspoort sites from the ROAD Database"
   },
-  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-08.",
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-09.",
   "data": {
     "type": "FeatureCollection",
     "features": [
@@ -12,7 +12,9 @@
         "type": "Feature",
         "properties": {
           "title": "Anyskop_Blowout",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Anyskop_Blowout Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Anyskop_Blowout Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -23,7 +25,9 @@
         "type": "Feature",
         "properties": {
           "title": "Apollo 11",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Apollo%2011 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Apollo%2011 Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -34,7 +38,9 @@
         "type": "Feature",
         "properties": {
           "title": "Boomplaas Cave",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Boomplaas%20Cave Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Boomplaas%20Cave Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -45,7 +51,9 @@
         "type": "Feature",
         "properties": {
           "title": "Border Cave",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Border%20Cave Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Border%20Cave Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -56,7 +64,9 @@
         "type": "Feature",
         "properties": {
           "title": "Bremen 1C",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bremen%201C Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bremen%201C Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -67,7 +77,9 @@
         "type": "Feature",
         "properties": {
           "title": "Cave of Hearths",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Cave%20of%20Hearths Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Cave%20of%20Hearths Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -78,7 +90,9 @@
         "type": "Feature",
         "properties": {
           "title": "Diepkloof Rock Shelter",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Diepkloof%20Rock%20Shelter Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Diepkloof%20Rock%20Shelter Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -89,7 +103,9 @@
         "type": "Feature",
         "properties": {
           "title": "Geelbek_Equus",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Geelbek_Equus Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Geelbek_Equus Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -100,7 +116,9 @@
         "type": "Feature",
         "properties": {
           "title": "Geelbek_Homo",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Geelbek_Homo Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Geelbek_Homo Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -111,7 +129,9 @@
         "type": "Feature",
         "properties": {
           "title": "Geelbek_Rhino",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Geelbek_Rhino Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Geelbek_Rhino Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -122,7 +142,9 @@
         "type": "Feature",
         "properties": {
           "title": "Geelbek_Stella",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Geelbek_Stella Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Geelbek_Stella Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -133,7 +155,9 @@
         "type": "Feature",
         "properties": {
           "title": "Ha Soloja",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ha%20Soloja Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ha%20Soloja Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -144,7 +168,9 @@
         "type": "Feature",
         "properties": {
           "title": "Howiesons Poort",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Howiesons%20Poort Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Howiesons%20Poort Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -155,7 +181,9 @@
         "type": "Feature",
         "properties": {
           "title": "Kathu Pan 6",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kathu%20Pan%206 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kathu%20Pan%206 Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -166,7 +194,9 @@
         "type": "Feature",
         "properties": {
           "title": "Klasies River Mouth Cave 2",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Klasies%20River%20Mouth%20Cave%202 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Klasies%20River%20Mouth%20Cave%202 Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -177,7 +207,9 @@
         "type": "Feature",
         "properties": {
           "title": "Klasies River Mouth Shelter 1A",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Klasies%20River%20Mouth%20Shelter%201A Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Klasies%20River%20Mouth%20Shelter%201A Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -188,7 +220,9 @@
         "type": "Feature",
         "properties": {
           "title": "Klein Kliphuis",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Klein%20Kliphuis Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Klein%20Kliphuis Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -199,7 +233,9 @@
         "type": "Feature",
         "properties": {
           "title": "Klipdrift Shelter",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Klipdrift%20Shelter Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Klipdrift%20Shelter Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -210,7 +246,9 @@
         "type": "Feature",
         "properties": {
           "title": "Klipfonteinrand",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Klipfonteinrand Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Klipfonteinrand Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -221,7 +259,9 @@
         "type": "Feature",
         "properties": {
           "title": "Melikane",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Melikane Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Melikane Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -232,7 +272,9 @@
         "type": "Feature",
         "properties": {
           "title": "Montagu Cave",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Montagu%20Cave Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Montagu%20Cave Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -243,7 +285,9 @@
         "type": "Feature",
         "properties": {
           "title": "Moshebis Shelter",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Moshebis%20Shelter Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Moshebis%20Shelter Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -254,7 +298,9 @@
         "type": "Feature",
         "properties": {
           "title": "Nelson Bay Cave",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Nelson%20Bay%20Cave Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Nelson%20Bay%20Cave Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -265,7 +311,9 @@
         "type": "Feature",
         "properties": {
           "title": "Ntloana Tsoana",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ntloana%20Tsoana Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ntloana%20Tsoana Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -276,7 +324,9 @@
         "type": "Feature",
         "properties": {
           "title": "Pinnacle Point 5-6",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pinnacle%20Point%205-6 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pinnacle%20Point%205-6 Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -287,7 +337,9 @@
         "type": "Feature",
         "properties": {
           "title": "Pockenbank 1",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pockenbank%201 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pockenbank%201 Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -298,7 +350,9 @@
         "type": "Feature",
         "properties": {
           "title": "Rose Cottage Cave",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Rose%20Cottage%20Cave Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Rose%20Cottage%20Cave Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -309,7 +363,9 @@
         "type": "Feature",
         "properties": {
           "title": "Sibhudu Cave",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sibhudu%20Cave Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sibhudu%20Cave Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -320,7 +376,9 @@
         "type": "Feature",
         "properties": {
           "title": "Tunnel Cave",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Tunnel%20Cave Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Tunnel%20Cave Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -331,7 +389,9 @@
         "type": "Feature",
         "properties": {
           "title": "Umhlatuzana",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Umhlatuzana Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Umhlatuzana Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -342,7 +402,9 @@
         "type": "Feature",
         "properties": {
           "title": "Varsche Rivier 003",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Varsche%20Rivier%20003 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Varsche%20Rivier%20003 Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",

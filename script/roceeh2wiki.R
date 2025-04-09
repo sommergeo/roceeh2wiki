@@ -13,7 +13,7 @@ library(readxl)
 con <- dbConnect(RPostgres::Postgres(), dbname = "roceeh", host="134.2.216.14", port=5432, user=rstudioapi::askForPassword("Database username"), password=rstudioapi::askForPassword("Database password"))
 
 # Query function
-road_query_culture <- function(culture){
+road_query_culture <- function(culture, color='1e3283', size='small'){
   
   # Prepare query
   if(exists('culture')){
@@ -40,8 +40,8 @@ road_query_culture <- function(culture){
     mutate(description = paste0("[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=",
                                str_replace_all(title, " " ,"%20"),
                                " Summary Data Sheet]"),
-           "marker-color" = '1e3283',
-           "marker-size" = 'small')
+           "marker-color" = color,
+           "marker-size" = size)
     
 
   return(dat)
@@ -80,7 +80,7 @@ road_query_period <- function(period){
   return(dat)
 }
 
-road_query_table <- function(table, desc=F){
+road_query_table <- function(table, desc=F, color='1e3283', size='small'){
 
   dat <- table %>% na.omit()
   dat <- dat %>% arrange(title)
@@ -90,10 +90,10 @@ road_query_table <- function(table, desc=F){
     dat <- dat %>% 
       mutate(description = paste0("[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=",
                                   str_replace_all(title, " " ,"%20"),
-                                  " Summary Data Sheet]"),
-             "marker-color" = '1e3283',
-             "marker-size" = 'small')
+                                  " Summary Data Sheet]"))
+
   }
+  dat <- dat %>%  mutate( "marker-color" = color, "marker-size" = size)
   
   return(dat)
 }
@@ -258,12 +258,12 @@ road_query_culture('Uluzzian') %>%
   writeLines("output/Uluzzian.json")
 
 # Early fire use 
-read_excel('input/Early fire.xlsx') %>% road_query_table(desc=T) %>% 
+read_excel('input/Early fire.xlsx') %>% road_query_table(desc=T, color='f73718') %>% 
   wiki_json(commons_description = '{"en": "Selected sites with early human fire use from the ROAD Database"}') %>% 
   writeLines("output/Early fire.json")
 
 # Ochre use 
-read_excel('input/Ochre.xlsx') %>% road_query_table(desc=T) %>% 
+read_excel('input/Ochre.xlsx') %>% road_query_table(desc=T, color='CC7722') %>% 
   wiki_json(commons_description = '{"en": "Selected sites with early human ochre use in Africa from the ROAD Database"}') %>% 
   writeLines("output/Ochre.json")
 

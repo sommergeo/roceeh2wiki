@@ -28,7 +28,7 @@ The following Wikis are currently provided:
 |Howiesonspoort |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Howiesonspoort.map) |[en](https://en.wikipedia.org/wiki/Howiesons_Poort) [de](https://de.wikipedia.org/wiki/Howieson%E2%80%99s_Poort_Industrie) [fr](https://fr.wikipedia.org/wiki/Howiesons_Poort) [it](https://it.wikipedia.org/wiki/Howiesons_Poort) ~~es~~ ~~pt~~ |
 |Initial Upper Paleolithic    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Initial_Upper_Paleolithic_Eurasia.map)    | |
 |Levantine Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Levantine_Aurignacian.map)    | |
-|Micoquian      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Micoquian.map)      |[en](https://en.wikipedia.org/wiki/Micoquien) [de](https://de.wikipedia.org/wiki/Micoquien) [fr](https://fr.wikipedia.org/wiki/Micoquien) [es](https://es.wikipedia.org/wiki/Micoquiense)|
+|Micoquian      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Micoquian.map)      |[en](https://en.wikipedia.org/wiki/Micoquien) [de](https://de.wikipedia.org/wiki/Micoquien) [fr](https://fr.wikipedia.org/wiki/Micoquien) ~~it~~ [es](https://es.wikipedia.org/wiki/Micoquiense) ~~pt~~|
 |Mousterian     |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Mousterian.map)|
 |Proto-Aurignacian    |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Proto_Aurignacian.map)    |~~en~~ ~~de~~ ~~fr~~ ~~it~~ ~~es~~ ~~pt~~ |
 |Solutrean      |[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Solutrean.map)      ||
@@ -55,13 +55,12 @@ Abay Namen, Andrew Kandel, Armando Falcucci, Giulia Marciani, Guido Bataille, Li
 
 ## Use
 
-The program uses the script [roceeh2wiki.py](/script/roceeh2wiki.py) to iterate through [wiki_cultures.xlsx](/data/wiki_cultures.xlsx), a list of archaeological cultures to be queried from the ROAD database and published on Wikpedia. The spreadsheet contains 5 columns:
-* `use` indicates whether a culture should be queried or not. We aim to provide a high level of quality and ask specialists to evaluate the resulting maps. Therefore the maps are released step by step.
-* `enwiki_title` and `enwiki_title` are Wikis in the German and English speaking Wikipedia that correspond to cultures stored in ROAD. They are the targets of our maps.
-* `road_culture` contains cultures to be queried from the ROAD attribute `archaeological_layer$archstratigraphy_idarchstrat` (or its RDF realisation `road:ArchaeologicalLayer\#archstratigraphyIdArchstrat`).
-* `description` contains a JSON styled dictionary with the maps names in different languages.
+There are three functions in [roceeh2wiki.R](/script/roceeh2wiki.R) to create geodata in a json scheme that is compatible with Kartographer, and one function to append the relevant metadata:
+* `road_query_culture` to retrieve cultures and technocomplexes from ROAD (e.g. 'Uluzzian')
+* `road_query_period` to obtain cultural periods from ROAD (e.g. 'Upper Paleolithic')
+* `road_query_table` to process data in R's native data.table format
+* `wiki_json` adds metadata compliant with the Kartographer scheme to the geodata 
 
-For each row that is flagged `use==T`, the script creates an output TXT file containing a Wikipedia-flavoured JSON into the output folder. This JSON can be manually exported to Wikimedia Commons `https://commons.wikimedia.org/wiki/Data:ROCEEH/*.map`. The Wikimedia Commons file is then linked within the target Wiki's `<mapframe>`. _It is planned to replace this manual last step in Wiki with a wikibot._ 
 
 ```
 .

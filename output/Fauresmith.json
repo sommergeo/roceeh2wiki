@@ -4,7 +4,7 @@
     "de": "Ausgewählte Fauresmith Fundstellen aus der ROAD Datenbank",
     "en": "Selected Fauresmith sites from the ROAD Database"
   },
-  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-08.",
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-09.",
   "data": {
     "type": "FeatureCollection",
     "features": [
@@ -12,7 +12,9 @@
         "type": "Feature",
         "properties": {
           "title": "Bestwood 1",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bestwood%201 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bestwood%201 Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -23,7 +25,9 @@
         "type": "Feature",
         "properties": {
           "title": "Canteen Kopje",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Canteen%20Kopje Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Canteen%20Kopje Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -34,7 +38,9 @@
         "type": "Feature",
         "properties": {
           "title": "Kathu Pan 1",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kathu%20Pan%201 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kathu%20Pan%201 Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -45,7 +51,9 @@
         "type": "Feature",
         "properties": {
           "title": "Kathu Pan 6",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kathu%20Pan%206 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kathu%20Pan%206 Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -56,7 +64,9 @@
         "type": "Feature",
         "properties": {
           "title": "Muirton",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Muirton Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Muirton Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -67,7 +77,9 @@
         "type": "Feature",
         "properties": {
           "title": "Neuhof-Kowas",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Neuhof-Kowas Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Neuhof-Kowas Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -78,7 +90,9 @@
         "type": "Feature",
         "properties": {
           "title": "Newmans Pont",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Newmans%20Pont Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Newmans%20Pont Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -89,7 +103,9 @@
         "type": "Feature",
         "properties": {
           "title": "Pniel 6",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pniel%206 Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pniel%206 Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -100,7 +116,9 @@
         "type": "Feature",
         "properties": {
           "title": "Powers Site",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Powers%20Site Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Powers%20Site Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -111,7 +129,9 @@
         "type": "Feature",
         "properties": {
           "title": "Riverview VI",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Riverview%20VI Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Riverview%20VI Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -122,7 +142,9 @@
         "type": "Feature",
         "properties": {
           "title": "Rooidam",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Rooidam Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Rooidam Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -133,7 +155,9 @@
         "type": "Feature",
         "properties": {
           "title": "Wonderwerk",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Wonderwerk Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Wonderwerk Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",

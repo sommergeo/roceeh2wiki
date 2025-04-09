@@ -3,7 +3,7 @@
   "description": {
     "en": "Selected Homo erectus sites from the ROAD Database"
   },
-  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-08.",
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-09.",
   "data": {
     "type": "FeatureCollection",
     "features": [
@@ -11,7 +11,9 @@
         "type": "Feature",
         "properties": {
           "title": "Ain Maarouf",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ain%20Maarouf Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ain%20Maarouf Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -22,7 +24,9 @@
         "type": "Feature",
         "properties": {
           "title": "Bouri",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bouri Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Bouri Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -33,7 +37,9 @@
         "type": "Feature",
         "properties": {
           "title": "Buia",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Buia Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Buia Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -44,7 +50,9 @@
         "type": "Feature",
         "properties": {
           "title": "Cave of Hearths",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Cave%20of%20Hearths Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Cave%20of%20Hearths Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -55,7 +63,9 @@
         "type": "Feature",
         "properties": {
           "title": "Chenjiawo",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Chenjiawo Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Chenjiawo Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -66,7 +76,9 @@
         "type": "Feature",
         "properties": {
           "title": "Dmanisi",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Dmanisi Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Dmanisi Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -77,7 +89,9 @@
         "type": "Feature",
         "properties": {
           "title": "Gona",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gona Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gona Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -88,7 +102,9 @@
         "type": "Feature",
         "properties": {
           "title": "Gongwangling",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gongwangling Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gongwangling Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -99,7 +115,9 @@
         "type": "Feature",
         "properties": {
           "title": "Hathnora",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Hathnora Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Hathnora Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -110,7 +128,9 @@
         "type": "Feature",
         "properties": {
           "title": "Hexian",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Hexian Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Hexian Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -121,7 +141,9 @@
         "type": "Feature",
         "properties": {
           "title": "Huludong",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Huludong Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Huludong Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -132,7 +154,9 @@
         "type": "Feature",
         "properties": {
           "title": "Jianshi",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Jianshi Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Jianshi Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -143,7 +167,9 @@
         "type": "Feature",
         "properties": {
           "title": "Kapthurin",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kapthurin Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kapthurin Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -154,7 +180,9 @@
         "type": "Feature",
         "properties": {
           "title": "Kedung Brubus",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kedung%20Brubus Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kedung%20Brubus Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -165,7 +193,9 @@
         "type": "Feature",
         "properties": {
           "title": "Konso Gadula",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Konso%20Gadula Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Konso%20Gadula Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -176,7 +206,9 @@
         "type": "Feature",
         "properties": {
           "title": "Koobi Fora",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Koobi%20Fora Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Koobi%20Fora Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -187,7 +219,9 @@
         "type": "Feature",
         "properties": {
           "title": "Luonan",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Luonan Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Luonan Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -198,7 +232,9 @@
         "type": "Feature",
         "properties": {
           "title": "Melka Kunture",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Melka%20Kunture Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Melka%20Kunture Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -209,7 +245,9 @@
         "type": "Feature",
         "properties": {
           "title": "Mohui Cave",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Mohui%20Cave Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Mohui%20Cave Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -220,7 +258,9 @@
         "type": "Feature",
         "properties": {
           "title": "Mojokerto",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Mojokerto Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Mojokerto Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -231,7 +271,9 @@
         "type": "Feature",
         "properties": {
           "title": "Nanzhao",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Nanzhao Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Nanzhao Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -242,7 +284,9 @@
         "type": "Feature",
         "properties": {
           "title": "Nariokotome",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Nariokotome Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Nariokotome Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -253,7 +297,9 @@
         "type": "Feature",
         "properties": {
           "title": "Ngandong",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ngandong Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ngandong Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -264,7 +310,9 @@
         "type": "Feature",
         "properties": {
           "title": "Ngawi",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ngawi Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ngawi Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -275,7 +323,9 @@
         "type": "Feature",
         "properties": {
           "title": "Olduvai Gorge",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Olduvai%20Gorge Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Olduvai%20Gorge Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -286,7 +336,9 @@
         "type": "Feature",
         "properties": {
           "title": "Olorgesailie",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Olorgesailie Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Olorgesailie Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -297,7 +349,9 @@
         "type": "Feature",
         "properties": {
           "title": "Sambungmacan",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sambungmacan Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sambungmacan Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -308,7 +362,9 @@
         "type": "Feature",
         "properties": {
           "title": "Sangiran",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sangiran Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sangiran Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -319,7 +375,9 @@
         "type": "Feature",
         "properties": {
           "title": "Sidi Abderrahman",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sidi%20Abderrahman Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sidi%20Abderrahman Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -330,7 +388,9 @@
         "type": "Feature",
         "properties": {
           "title": "Sterkfontein",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sterkfontein Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Sterkfontein Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -341,7 +401,9 @@
         "type": "Feature",
         "properties": {
           "title": "Swartkrans",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Swartkrans Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Swartkrans Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -352,7 +414,9 @@
         "type": "Feature",
         "properties": {
           "title": "Ternifine",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ternifine Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Ternifine Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -363,7 +427,9 @@
         "type": "Feature",
         "properties": {
           "title": "Trinil",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Trinil Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Trinil Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -374,7 +440,9 @@
         "type": "Feature",
         "properties": {
           "title": "Wushan",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Wushan Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Wushan Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -385,7 +453,9 @@
         "type": "Feature",
         "properties": {
           "title": "Xichuan",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Xichuan Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Xichuan Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -396,7 +466,9 @@
         "type": "Feature",
         "properties": {
           "title": "Yiyuan",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Yiyuan Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Yiyuan Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -407,7 +479,9 @@
         "type": "Feature",
         "properties": {
           "title": "Yunxi",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Yunxi Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Yunxi Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -418,7 +492,9 @@
         "type": "Feature",
         "properties": {
           "title": "Yunxian",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Yunxian Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Yunxian Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -429,7 +505,9 @@
         "type": "Feature",
         "properties": {
           "title": "Yunxian",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Yunxian Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Yunxian Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
@@ -440,7 +518,9 @@
         "type": "Feature",
         "properties": {
           "title": "Zhoukoudian",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Zhoukoudian Summary Data Sheet]"
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Zhoukoudian Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
         },
         "geometry": {
           "type": "Point",
