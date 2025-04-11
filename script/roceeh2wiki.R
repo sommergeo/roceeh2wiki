@@ -80,6 +80,41 @@ road_query_period <- function(period){
   return(dat)
 }
 
+road_query_string <- function(sql_string, color='1e3283', size='small'){
+  
+  # Prepare query
+  if(exists('sql_string')){
+    # Load sql query template
+    #query_culture <- sql_string
+    
+    # Integrate query 
+    #query <- sprintf(sql_string)
+    query <- sql_string
+  }
+  
+  # Run the query
+  dat <- dbGetQuery(con, query)
+  
+  # Rename columns
+  dat <- dat %>% 
+    rename(lon = x,
+           lat = y,
+           title = locality_idlocality) %>%
+    select(-archstratigraphy_idarchstrat) %>% 
+    arrange(title)
+  
+  # Add link to ROAD Summary Data Sheets
+  dat <- dat %>% 
+    mutate(description = paste0("[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=",
+                                str_replace_all(title, " " ,"%20"),
+                                " Summary Data Sheet]"),
+           "marker-color" = color,
+           "marker-size" = size)
+  
+  
+  return(dat)
+}
+
 road_query_table <- function(table, desc=F, color='1e3283', size='small'){
 
   dat <- table %>% na.omit()
@@ -169,10 +204,12 @@ road_query_period('Upper Paleolithic') %>%
   writeLines("output/Upper Paleolithic.json")
 
 # Acheulean
-road_query_culture('%Acheule%') %>%
+road_query_string("SELECT DISTINCT ON (archaeological_layer.locality_idlocality, archaeological_layer.archstratigraphy_idarchstrat, locality.x, locality.y) archaeological_layer.locality_idlocality, archaeological_layer.archstratigraphy_idarchstrat, locality.x, locality.y FROM archaeological_layer, locality WHERE locality.idlocality = archaeological_layer.locality_idlocality AND archaeological_layer.archstratigraphy_idarchstrat LIKE '%Acheul%' AND archaeological_layer.archstratigraphy_idarchstrat NOT LIKE '%Mousterian of Acheulean Tradition%' AND archaeological_layer.archstratigraphy_idarchstrat NOT LIKE '%Acheulo-Yabrudian%'") %>%
   wiki_json(commons_description = '{"en": "Selected Acheulean sites from the ROAD Database"}') %>%
   writeLines("output/Acheulean.json")
-
+    
+  
+  
 # Ahmarian
 road_query_culture('Ahmarian') %>%
   wiki_json(commons_description = '{"de": "Ausgewählte Ahmarien Fundstellen aus der ROAD Datenbank", "en": "Selected Ahmarian sites from the ROAD Database"}') %>%

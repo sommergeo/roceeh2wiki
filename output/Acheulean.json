@@ -3,7 +3,7 @@
   "description": {
     "en": "Selected Acheulean sites from the ROAD Database"
   },
-  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-09.",
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-11.",
   "data": {
     "type": "FeatureCollection",
     "features": [
@@ -114,19 +114,6 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Assen",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Assen Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [6.487, 53.083]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
           "title": "Attirampakkam",
           "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Attirampakkam Summary Data Sheet]",
           "marker-color": "1e3283",
@@ -213,19 +200,6 @@
         "geometry": {
           "type": "Point",
           "coordinates": [5.475, 46.47]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "Becov I",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Becov%20I Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [13.73, 50.424]
         }
       },
       {
@@ -400,19 +374,6 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Chez-Pinaud",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Chez-Pinaud Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-0.419, 45.438]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
           "title": "Chilga Kernet",
           "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Chilga%20Kernet Summary Data Sheet]",
           "marker-color": "1e3283",
@@ -434,19 +395,6 @@
         "geometry": {
           "type": "Point",
           "coordinates": [3.445, 45.16]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "Combe-Grenal",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Combe-Grenal Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [1.226, 44.806]
         }
       },
       {
@@ -686,19 +634,6 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Fontéchevade",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Fontéchevade Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [0.48, 45.679]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
           "title": "Gadeb",
           "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Gadeb Summary Data Sheet]",
           "marker-color": "1e3283",
@@ -855,45 +790,6 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Grotte XVI",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20XVI Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [1.159, 44.809]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "Grotte de la Chèvre",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20de%20la%20Chèvre Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-0.403, 47.994]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "Grotte des Fees",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20des%20Fees Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [3.638, 46.412]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
           "title": "Grotte du Lazaret",
           "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Grotte%20du%20Lazaret Summary Data Sheet]",
           "marker-color": "1e3283",
@@ -954,19 +850,6 @@
         "geometry": {
           "type": "Point",
           "coordinates": [40.583, 11.1]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "Haut de Combe-Capelle",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Haut%20de%20Combe-Capelle Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [0.85, 44.753]
         }
       },
       {
@@ -1479,58 +1362,6 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "La Croix-Guémard",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=La%20Croix-Guémard Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-0.173, 47]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "La Ferrassie_Grand Abri",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=La%20Ferrassie_Grand%20Abri Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [0.938, 44.952]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "La Folie",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=La%20Folie Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [0.356, 46.618]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "La Grotte Marcel Clouet",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=La%20Grotte%20Marcel%20Clouet Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-0.346, 45.708]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
           "title": "La Noira",
           "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=La%20Noira Summary Data Sheet]",
           "marker-color": "1e3283",
@@ -1552,19 +1383,6 @@
         "geometry": {
           "type": "Point",
           "coordinates": [12.3, 41.93]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "La Quina - Amont",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=La%20Quina%20-%20Amont Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [0.295, 45.508]
         }
       },
       {
@@ -1596,19 +1414,6 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Le Baste",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Le%20Baste Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-1.46, 43.479]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
           "title": "Le Bois-de-Riquet",
           "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Le%20Bois-de-Riquet Summary Data Sheet]",
           "marker-color": "1e3283",
@@ -1617,19 +1422,6 @@
         "geometry": {
           "type": "Point",
           "coordinates": [3.424, 43.492]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "Le Moustier_Abri inférieur",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Le%20Moustier_Abri%20inférieur Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [1.06, 44.994]
         }
       },
       {
@@ -2259,19 +2051,6 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Pech de l Azé I",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pech%20de%20l%20Azé%20I Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [1.254, 44.859]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
           "title": "Pech de l Azé II",
           "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pech%20de%20l%20Azé%20II Summary Data Sheet]",
           "marker-color": "1e3283",
@@ -2280,19 +2059,6 @@
         "geometry": {
           "type": "Point",
           "coordinates": [1.253, 44.859]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "Pech de l Azé IV",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Pech%20de%20l%20Azé%20IV Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [1.255, 44.858]
         }
       },
       {
@@ -2389,19 +2155,6 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Quincay",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Quincay Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [0.236, 46.607]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
           "title": "Reutersruh",
           "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Reutersruh Summary Data Sheet]",
           "marker-color": "1e3283",
@@ -2423,19 +2176,6 @@
         "geometry": {
           "type": "Point",
           "coordinates": [34.815, 31.776]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "Rheindahlen",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Rheindahlen Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [6.368, 51.14]
         }
       },
       {
@@ -2488,19 +2228,6 @@
         "geometry": {
           "type": "Point",
           "coordinates": [30.32, 20.7]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "Saint-Césaire",
-          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Saint-Césaire Summary Data Sheet]",
-          "marker-color": "1e3283",
-          "marker-size": "small"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-0.504, 45.75]
         }
       },
       {
