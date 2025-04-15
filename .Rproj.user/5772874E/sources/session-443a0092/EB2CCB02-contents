@@ -95,12 +95,16 @@ road_query_string <- function(sql_string, color='1e3283', size='small'){
   # Run the query
   dat <- dbGetQuery(con, query)
   
+  if('idlocality' %in% colnames(dat)){
+    dat <- dat %>%  rename('locality_idlocality'='idlocality')
+  }
+  
   # Rename columns
   dat <- dat %>% 
     rename(lon = x,
            lat = y,
            title = locality_idlocality) %>%
-    select(-archstratigraphy_idarchstrat) %>% 
+    select(title,lon,lat) %>% 
     arrange(title)
   
   # Add link to ROAD Summary Data Sheets
@@ -208,8 +212,6 @@ road_query_string("SELECT DISTINCT ON (archaeological_layer.locality_idlocality,
   wiki_json(commons_description = '{"en": "Selected Acheulean sites from the ROAD Database"}') %>%
   writeLines("output/Acheulean.json")
     
-  
-  
 # Ahmarian
 road_query_culture('Ahmarian') %>%
   wiki_json(commons_description = '{"de": "Ausgewählte Ahmarien Fundstellen aus der ROAD Datenbank", "en": "Selected Ahmarian sites from the ROAD Database"}') %>%
@@ -368,6 +370,11 @@ read_excel('input/Homo sapiens neanderthalensis.xlsx') %>% road_query_table(desc
 read_excel('input/Homo sapiens.xlsx') %>% road_query_table(desc=T) %>% 
   wiki_json(commons_description = '{"en": "Selected Homo sapiens sites from the ROAD Database"}') %>% 
   writeLines("output/Homo sapiens.json")
+
+# Paranthropus
+road_query_string("SELECT DISTINCT on (locality.idlocality, locality.x, locality.y) locality.idlocality, locality.x, locality.y FROM locality, publication_desc_humanremains WHERE (publication_desc_humanremains.humanremains_idlocality = locality.idlocality and publication_desc_humanremains.genus = 'Paranthropus' and publication_desc_humanremains.roceeh_default is NULL)") %>%
+  wiki_json(commons_description = '{"en": "Selected Paranthropus sites from the ROAD Database"}') %>%
+  writeLines("output/Paranthropus.json")
 
 #### Test Area ----
 # Uluzzian

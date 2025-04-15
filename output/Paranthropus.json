@@ -1,0 +1,148 @@
+{
+  "license": "CC-BY-SA-4.0",
+  "description": {
+    "en": "Selected Paranthropus sites from the ROAD Database"
+  },
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-15.",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Coopers Cave D",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Coopers%20Cave%20D Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [27.745, -26.013]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Drimolen",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Drimolen Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [27.756, -25.969]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Koobi Fora Area 10",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Koobi%20Fora%20Area%2010 Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [36.317, 4.3]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Kromdraai B",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Kromdraai%20B Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [27.75, -26]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Malema",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Malema Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [33.974, -10.054]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Nachukui Fm. Lomekwi",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Nachukui%20Fm.%20Lomekwi Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [35.74, 3.901]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Nachukui Fm. Nachukui Loc.",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Nachukui%20Fm.%20Nachukui%20Loc. Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [35.9, 4.133]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Peninj",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Peninj Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [35.933, -2.2]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Shungura Fm. Site O",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Shungura%20Fm.%20Site%20O Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [36.026, 5.031]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Swartkrans",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Swartkrans Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [27.756, -25.969]
+        }
+      }
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    }
+  }
+}

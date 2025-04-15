@@ -37,6 +37,7 @@ The following Wikis are currently provided:
 |Early fire use|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Early_fire.map)|[en](https://en.wikipedia.org/wiki/Fire)|
 |Ochre use|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Ochre.map)|[en](https://en.wikipedia.org/wiki/Ochre)|
 |Eyed needle use|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Eyed_needle.map)|[en](https://en.wikipedia.org/wiki/Sewing_needle) [en](https://en.wikipedia.org/wiki/Bone_tool)|
+|Paranthropus|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Paranthropus.map)|[en](https://en.wikipedia.org/wiki/Paranthropus)|
 |Sahelanthropus tchadensis|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Sahelanthropus_tchadensis.map)| |
 |Ardipithecus ramidus and kadaba|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Ardipithecus_ramidus_and_kadaba.map)| |
 |Australopithecus afarensis|[Link](https://commons.wikimedia.org/wiki/Data:ROCEEH/Australopithecus_afarensis.map)| |
