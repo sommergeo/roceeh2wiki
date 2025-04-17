@@ -376,6 +376,11 @@ road_query_string("SELECT DISTINCT on (locality.idlocality, locality.x, locality
   wiki_json(commons_description = '{"en": "Selected Paranthropus sites from the ROAD Database"}') %>%
   writeLines("output/Paranthropus.json")
 
+# Paranthropus
+road_query_string("SELECT DISTINCT on (locality.idlocality, locality.x, locality.y) locality.idlocality, locality.x, locality.y FROM locality, publication_desc_humanremains WHERE (publication_desc_humanremains.humanremains_idlocality = locality.idlocality and publication_desc_humanremains.genus = 'Paranthropus' and (publication_desc_humanremains.roceeh_default is NULL or publication_desc_humanremains.roceeh_default = 't'))") %>%
+  wiki_json(commons_description = '{"en": "Selected Paranthropus sites from the ROAD Database"}') %>%
+  writeLines("output/Paranthropus.json")
+
 #### Test Area ----
 # Uluzzian
 road_query_culture('Uluzzian') %>%
