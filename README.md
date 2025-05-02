@@ -89,7 +89,7 @@ Web maps are implemented in Wikipedia using a `<mapframe>' element. The element'
 ![Screenshot from Wikimedia Commons](docs/wikipedia_uluzzian_1000x700.png)
 
 ```html
-<mapframe text="Selected Uluzzian sites from the [https://www.roceeh.uni-tuebingen.de/roadweb ROAD database] (CC BY-SA 4.0 ROCEEH)" longitude="16.3" latitude="41.5" zoom="5" width="450", height="350">
+<mapframe text="Selected Uluzzian sites from the [https://www.roceeh.uni-tuebingen.de/roadweb ROAD database](CC BY-SA 4.0 ROCEEH)" width="450", height="350">
 {
   "type": "ExternalData",
   "service": "page",
