@@ -1,0 +1,44 @@
+{
+  "license": "CC-BY-SA-4.0",
+  "description": {
+    "en": "Selected Paranthropus aethiopicus sites from the ROAD Database"
+  },
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-06-13.",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Laetoli",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Laetoli Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [35.217, -3.167]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Nachukui Fm. Lomekwi",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Nachukui%20Fm.%20Lomekwi Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [35.74, 3.901]
+        }
+      }
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    }
+  }
+}

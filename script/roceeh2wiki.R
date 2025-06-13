@@ -371,15 +371,35 @@ read_excel('input/Homo sapiens.xlsx') %>% road_query_table(desc=T) %>%
   wiki_json(commons_description = '{"en": "Selected Homo sapiens sites from the ROAD Database"}') %>% 
   writeLines("output/Homo sapiens.json")
 
-# Paranthropus
+# Paranthropus (old)
 road_query_string("SELECT DISTINCT on (locality.idlocality, locality.x, locality.y) locality.idlocality, locality.x, locality.y FROM locality, publication_desc_humanremains WHERE (publication_desc_humanremains.humanremains_idlocality = locality.idlocality and publication_desc_humanremains.genus = 'Paranthropus' and publication_desc_humanremains.roceeh_default is NULL)") %>%
   wiki_json(commons_description = '{"en": "Selected Paranthropus sites from the ROAD Database"}') %>%
   writeLines("output/Paranthropus.json")
 
-# Paranthropus
-road_query_string("SELECT DISTINCT on (locality.idlocality, locality.x, locality.y) locality.idlocality, locality.x, locality.y FROM locality, publication_desc_humanremains WHERE (publication_desc_humanremains.humanremains_idlocality = locality.idlocality and publication_desc_humanremains.genus = 'Paranthropus' and (publication_desc_humanremains.roceeh_default is NULL or publication_desc_humanremains.roceeh_default = 't'))") %>%
+# Paranthropus (new)
+road_query_string("SELECT DISTINCT on (locality.idlocality, locality.x, locality.y, publication_desc_humanremains.genus, publication_desc_humanremains.species) locality.idlocality, locality.x, locality.y, publication_desc_humanremains.genus, publication_desc_humanremains.species FROM locality, publication_desc_humanremains WHERE (publication_desc_humanremains.humanremains_idlocality = locality.idlocality and publication_desc_humanremains.genus = 'Paranthropus' and (publication_desc_humanremains.roceeh_default is NULL or publication_desc_humanremains.roceeh_default = 't'))") %>%
   wiki_json(commons_description = '{"en": "Selected Paranthropus sites from the ROAD Database"}') %>%
   writeLines("output/Paranthropus.json")
+
+# Paranthropus aethiopicus
+road_query_string("SELECT DISTINCT on (locality.idlocality, locality.x, locality.y, publication_desc_humanremains.genus, publication_desc_humanremains.species) locality.idlocality, locality.x, locality.y, publication_desc_humanremains.genus, publication_desc_humanremains.species FROM locality, publication_desc_humanremains WHERE (publication_desc_humanremains.humanremains_idlocality = locality.idlocality and publication_desc_humanremains.genus = 'Paranthropus' and publication_desc_humanremains.species = 'aethiopicus' and (publication_desc_humanremains.roceeh_default is NULL or publication_desc_humanremains.roceeh_default = 't'))") %>%
+  wiki_json(commons_description = '{"en": "Selected Paranthropus aethiopicus sites from the ROAD Database"}') %>%
+  writeLines("output/Paranthropus_aethiopicus.json")
+
+# Paranthropus boisei
+road_query_string("SELECT DISTINCT on (locality.idlocality, locality.x, locality.y, publication_desc_humanremains.genus, publication_desc_humanremains.species) locality.idlocality, locality.x, locality.y, publication_desc_humanremains.genus, publication_desc_humanremains.species FROM locality, publication_desc_humanremains WHERE (publication_desc_humanremains.humanremains_idlocality = locality.idlocality and publication_desc_humanremains.genus = 'Paranthropus' and publication_desc_humanremains.species = 'boisei' and (publication_desc_humanremains.roceeh_default is NULL or publication_desc_humanremains.roceeh_default = 't'))") %>%
+  wiki_json(commons_description = '{"en": "Selected Paranthropus boisei sites from the ROAD Database"}') %>%
+  writeLines("output/Paranthropus_boisei.json")
+
+# Paranthropus robustus
+road_query_string("SELECT DISTINCT on (locality.idlocality, locality.x, locality.y, publication_desc_humanremains.genus, publication_desc_humanremains.species) locality.idlocality, locality.x, locality.y, publication_desc_humanremains.genus, publication_desc_humanremains.species FROM locality, publication_desc_humanremains WHERE (publication_desc_humanremains.humanremains_idlocality = locality.idlocality and publication_desc_humanremains.genus = 'Paranthropus' and publication_desc_humanremains.species = 'robustus' and (publication_desc_humanremains.roceeh_default is NULL or publication_desc_humanremains.roceeh_default = 't'))") %>%
+  wiki_json(commons_description = '{"en": "Selected Paranthropus robustus sites from the ROAD Database"}') %>%
+  writeLines("output/Paranthropus_robustus.json")
+
+# Paranthropus robustus
+road_query_string("SELECT DISTINCT on (locality.idlocality, locality.x, locality.y, publication_desc_humanremains.genus, publication_desc_humanremains.species) locality.idlocality, locality.x, locality.y, publication_desc_humanremains.genus, publication_desc_humanremains.species FROM locality, publication_desc_humanremains WHERE (publication_desc_humanremains.humanremains_idlocality = locality.idlocality and publication_desc_humanremains.genus = 'Paranthropus' and publication_desc_humanremains.species = 'robustus' and (publication_desc_humanremains.roceeh_default is NULL or publication_desc_humanremains.roceeh_default = 't'))") %>%
+  wiki_json(commons_description = '{"en": "Selected Paranthropus robustus sites from the ROAD Database"}') %>%
+  writeLines("output/Paranthropus_robustus.json")
 
 #### Test Area ----
 # Uluzzian

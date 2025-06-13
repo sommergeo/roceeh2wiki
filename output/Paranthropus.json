@@ -3,10 +3,23 @@
   "description": {
     "en": "Selected Paranthropus sites from the ROAD Database"
   },
-  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-04-17.",
+  "sources": "Data retrieved from the [https://www.roceeh.uni-tuebingen.de/roadweb ROCEEH Out Of Africa Database (ROAD)] on 2025-06-13.",
   "data": {
     "type": "FeatureCollection",
     "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Chesowanja",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Chesowanja Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [36.206, 0.651]
+        }
+      },
       {
         "type": "Feature",
         "properties": {
@@ -36,6 +49,19 @@
       {
         "type": "Feature",
         "properties": {
+          "title": "Konso-Gardula",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Konso-Gardula Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.44, 5.41]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
           "title": "Koobi Fora Area 10",
           "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Koobi%20Fora%20Area%2010 Summary Data Sheet]",
           "marker-color": "1e3283",
@@ -57,6 +83,19 @@
         "geometry": {
           "type": "Point",
           "coordinates": [27.75, -26]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Laetoli",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Laetoli Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [35.217, -3.167]
         }
       },
       {
@@ -147,7 +186,20 @@
         },
         "geometry": {
           "type": "Point",
-          "coordinates": [27.756, -25.969]
+          "coordinates": [27.724, -26.017]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Swartkrans",
+          "description": "[https://www.roceeh.uni-tuebingen.de/roadweb/tcpdf/localityInfoPDF/localityInfoPDF.php?locality=Swartkrans Summary Data Sheet]",
+          "marker-color": "1e3283",
+          "marker-size": "small"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [27.724, -26.017]
         }
       }
     ],
